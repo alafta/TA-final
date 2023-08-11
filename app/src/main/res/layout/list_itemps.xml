@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/buttonps1"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/kotakps" />
+
+    <ImageView
+        android:id="@+id/buletps1"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:layout_alignLeft="@id/buttonps1"
+        android:layout_alignEnd="@id/buttonps1"
+        android:layout_alignTop="@+id/buttonps1"
+        android:layout_alignRight="@id/buttonps1"
+        android:layout_alignStart="@id/buttonps1"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/round" />
+
+    <TextView
+        android:id="@+id/textno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/buletps1"
+        android:layout_alignEnd="@id/buletps1"
+        android:layout_alignTop="@id/buletps1"
+        android:layout_alignRight="@id/buletps1"
+        android:layout_alignStart="@id/buletps1"
+        android:layout_alignBottom="@id/buletps1"
+        android:fontFamily="@font/opensans"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textps1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buletps1"
+        android:layout_alignLeft="@id/buttonps1"
+        android:layout_alignRight="@id/buttonps1"
+        android:layout_alignStart="@id/buttonps1"
+        android:layout_alignEnd="@id/buttonps1"
+        android:layout_alignBottom="@id/buttonps1"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/opensans"
+        android:gravity="center_horizontal"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:text="@string/ps1name"
+        android:textColor="#000000"
+        android:textSize="7.7sp"
+        android:textStyle="bold"
+        tools:ignore="SmallSp" />
+
+
+</RelativeLayout>

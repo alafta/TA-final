@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relativepenjelasanp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/komponenkotakpenjelasan"
+            android:layout_width="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/kotakhome" />
+
+        <TextView
+            android:id="@+id/tvjudulpenjelasancs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/judulpenjelasancs"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@drawable/stroke"
+        android:layout_below="@id/tvjudulpenjelasancs"
+        android:layout_alignRight="@id/tvjudulpenjelasancs"
+        android:layout_alignLeft="@id/tvjudulpenjelasancs"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"/>
+
+
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/relativepenjelasanp1"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:id="@+id/tvproblem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/poppins_semib"
+                android:text="@string/subpenjelasancs1"
+                android:textColor="#121212"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/garisproblemcs"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tvproblem"
+                android:layout_alignLeft="@id/tvproblem"
+                android:layout_alignRight="@id/tvproblem"
+                android:background="@drawable/stroke"
+                android:backgroundTint="@color/black" />
+
+            <TextView
+                android:id="@+id/subjudulcs1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/garisproblemcs"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/popins_reguler"
+                android:justificationMode="inter_word"
+                android:text="feaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafeeeeeeeeeafefaefefaefeafefefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff."
+                android:textColor="#121212"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/subjudulcs2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudulcs1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/poppins_semib"
+                android:gravity="center"
+                android:text="@string/subpenjelasancs2"
+                android:textColor="#121212"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/garishowtousetrizcs"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/subjudulcs2"
+                android:layout_alignLeft="@id/subjudulcs2"
+                android:layout_alignRight="@id/subjudulcs2"
+                android:background="@drawable/stroke"
+                android:backgroundTint="@color/black" />
+
+
+            <TextView
+                android:id="@+id/subjudulcs3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudulcs2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/popins_reguler"
+                android:text="@string/subppenjelasancs3"
+                android:textColor="#121212"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/buletcs1"
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudulcs3"
+                android:layout_alignLeft="@id/subjudulcs3"
+                android:layout_alignTop="@id/subjudulcs4"
+                android:layout_alignBottom="@id/subjudulcs4"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3.4dp"
+                android:layout_marginBottom="3.4dp"
+                android:background="@drawable/circle" />
+
+            <TextView
+                android:id="@+id/subjudulcs4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudulcs3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@id/buletcs1"
+                android:fontFamily="@font/popins_reguler"
+                android:text="Improvement parameter"
+                android:textColor="#121212"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/arrowcs1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@id/buletcs1"
+                android:layout_alignLeft="@id/buletcs1"
+                android:background="@drawable/arrow_penjelasan"/>
+
+            <TextView
+                android:id="@+id/isiworsening"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudulcs4"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@id/arrowcs1"
+                android:fontFamily="@font/popins_reguler"
+                android:justificationMode="inter_word"
+                android:text="fdaaaaaaaaaaaaaaaaaaaaaaafdaaaaaadfadfdfdaaaaadfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                android:textColor="#121212"
+                android:textSize="10dp" />
+
+            <ImageView
+                android:id="@+id/buletcs2"
+                android:layout_width="8dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isiworsening"
+                android:layout_alignLeft="@id/subjudulcs3"
+                android:layout_alignTop="@id/subjudulcs5"
+                android:layout_alignBottom="@id/subjudulcs5"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3.4dp"
+                android:layout_marginBottom="3.4dp"
+                android:background="@drawable/circle" />
+
+            <TextView
+                android:id="@+id/subjudulcs5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isiworsening"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_toRightOf="@id/buletcs2"
+                android:fontFamily="@font/popins_reguler"
+                android:text="Worsening parameter"
+                android:textColor="#121212"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/arrowcs2"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@id/buletcs2"
+                android:layout_alignLeft="@id/buletcs2"
+                android:background="@drawable/arrow_penjelasan"/>
+
+            <TextView
+                android:id="@+id/isiimprovement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subjudulcs5"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/arrowcs2"
+                android:fontFamily="@font/popins_reguler"
+                android:justificationMode="inter_word"
+                android:text="fdaaaaaaaaaaaaaaaaaaaaaaafdaaaaaadfadfdfdaaaaadfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+                android:textColor="#121212"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/subjudulcs6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isiimprovement"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/popins_reguler"
+                android:text="@string/subpenjelasancs4"
+                android:textColor="#121212"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/isisolusi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subjudulcs6"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/popins_reguler"
+                android:justificationMode="inter_word"
+                android:text="feaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafeeeeeeeeeafefaefefaefeafefefffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff."
+                android:textColor="#121212"
+                android:textSize="12dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

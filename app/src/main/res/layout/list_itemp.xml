@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="12dp">
+
+
+    <ImageView
+        android:id="@+id/imp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/kotakp"
+        android:padding="25dp" />
+
+    <ImageView
+        android:id="@+id/buletp1"
+        android:layout_width="26dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imp1"
+        android:layout_alignTop="@+id/imp1"
+        android:layout_alignBottom="@id/imp1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/round"
+        android:layout_alignStart="@+id/imp1"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:id="@+id/tvp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imp1"
+        android:layout_alignEnd="@id/imp1"
+        android:layout_alignRight="@id/imp1"
+        android:layout_alignBottom="@id/imp1"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/buletp1"
+        android:layout_toRightOf="@id/buletp1"
+        android:fontFamily="@font/opensans"
+        android:gravity="center_vertical"
+        android:paddingRight="4dp"
+        android:text="@string/p1text"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvnop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/buletp1"
+        android:layout_alignTop="@id/buletp1"
+        android:layout_alignStart="@id/buletp1"
+        android:layout_alignEnd="@id/buletp1"
+        android:layout_alignRight="@+id/buletp1"
+        android:layout_alignBottom="@id/buletp1"
+        android:fontFamily="@font/opensans"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

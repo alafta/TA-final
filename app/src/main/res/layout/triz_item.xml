@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="@color/secondary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginVertical="35dp"
+            android:layout_marginHorizontal="30dp">
+            
+            <ImageView
+                android:id="@+id/illu"
+                android:src="@drawable/illutriz"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+            
+            <TextView
+                android:id="@+id/textUnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/illu"
+                android:layout_marginTop="20dp"
+                android:text="@string/page1"
+                android:textSize="16sp"
+                android:fontFamily="@font/tajawalregular"
+                android:textAlignment="center"
+                android:textColor="@color/fourth"
+                android:layout_gravity="center_horizontal" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

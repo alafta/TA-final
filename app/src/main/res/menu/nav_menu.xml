@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+<!--        <item-->
+<!--            android:id="@+id/nav_about"-->
+<!--            android:icon="@drawable/ic_infocircle"-->
+<!--            android:title="About App"/>-->
+
+        <item
+            android:id="@+id/nav_undr"
+            android:icon="@drawable/ic_underst"
+            android:title="TRIZ Understanding"/>
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+    <item
+        android:title="Understanding Pages">
+
+        <menu>
+            <item
+                android:id="@+id/nav_what"
+                android:icon="@drawable/ic_descr"
+                android:title="What is TRIZ"
+                />
+
+            <item
+                android:id="@+id/nav_bussi"
+                android:icon="@drawable/ic_manage"
+                android:title="How can it Works"
+                />
+
+            <item
+                android:id="@+id/nav_param"
+                android:icon="@drawable/ic_params"
+                android:title="Parameter"
+                />
+
+            <item
+                android:id="@+id/nav_princ"
+                android:icon="@drawable/ic_principles"
+                android:title="Principles"
+                />
+
+            <item
+                android:id="@+id/nav_cont"
+                android:icon="@drawable/ic_contrac"
+                android:title="Contradiction Matrix"
+                />
+        </menu>
+    </item>
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="Change Language">
+            <menu>
+                <item
+                    android:id="@+id/nav_languageEn"
+                    android:icon="@drawable/ic_baseline_language2"
+                    android:title="English"/>
+                <item
+                    android:id="@+id/nav_languageIn"
+                    android:icon="@drawable/ic_baseline_language2"
+                    android:title="Indonesia"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>

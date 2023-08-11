@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_menu"
+    tools:openDrawer="right"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_home2"
+    tools:context=".HomeActivityNew.Home2Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/homeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/home2Title"
+            android:fontFamily="@font/tajawalextrabold"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:textColor="@color/secondary"/>
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_hambergermenu"
+            android:background="@null"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"
+            app:layout_constraintTop_toBottomOf="@id/homeText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/setContradiction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="@string/matrix2Set"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/secondary_2"
+                    />
+
+                <ImageButton
+                    android:id="@+id/information"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/ic_infocircle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.858"
+                    app:layout_constraintStart_toEndOf="@id/setContradiction"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/setImproving"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/setContradiction"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/matrix2Improving"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/montserratmedium"
+                    android:textColor="@color/secondary_2"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinnerNew1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    app:layout_constraintTop_toBottomOf="@id/setImproving"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/spinner"
+                    />
+
+                <TextView
+                    android:id="@+id/setWorsening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/spinnerNew1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/matrix2Worsening"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/montserratmedium"
+                    android:textColor="@color/secondary_2"
+                    />
+
+                <Spinner
+                    android:id="@+id/spinnerNew2"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    app:layout_constraintTop_toBottomOf="@id/setWorsening"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/spinner" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSolution"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/solution_view"
+            app:layout_constraintTop_toBottomOf="@id/cardChoose"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/buttonTriz"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="10dp"
+            app:cardElevation="@null">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                android:id="@+id/principles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="21dp"
+                android:text="@string/principles"
+                android:textSize="14sp"
+                android:fontFamily="@font/montserratbold"
+                android:textColor="@color/secondary_2"
+                />
+
+                <TextView
+                    android:id="@+id/subPrinciples"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/principles"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:text="@string/subPrinciples"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/montserratregular"
+                    android:textColor="@color/secondary_2"
+                    />
+
+                <TextView
+                    android:id="@+id/textrecycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserratsemibold"
+                    android:gravity="center"
+                    android:text="Solution not available"
+                    android:textSize="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.6" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycleViewhasilCm"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_marginHorizontal="16dp"
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintTop_toBottomOf="@id/subPrinciples"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/buttonTriz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_new"
+            app:layout_constraintTop_toBottomOf="@id/cardSolution"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/buttonTriz"
+            android:textSize="14sp"
+            android:fontFamily="@font/montserratsemibold"
+            android:textColor="#FFFFFF"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_nav"
+        android:layout_gravity="end"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

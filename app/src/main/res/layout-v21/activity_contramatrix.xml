@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_cont"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".classContradiction.ContramatrixActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintId"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <ImageButton
+                    android:id="@+id/menu_contra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:src="@drawable/ic_hambergermenu2"
+                    android:background="@null"/>
+
+                <TextView
+                    android:id="@+id/homeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:fontFamily="@font/tajawalextrabold"
+                    android:text="@string/contmatTitle"
+                    android:textColor="@color/secondary"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/constraintId"
+                    app:layout_constraintTop_toBottomOf="@id/menu_contra" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/contPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/constraintId"
+                android:layout_centerInParent="true"
+                android:clipToPadding="false"
+                android:foregroundGravity="center"
+                android:overScrollMode="never"/>
+        </RelativeLayout>
+
+        <include
+            layout="@layout/cont_sheet"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_nav"
+        android:layout_gravity="end"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

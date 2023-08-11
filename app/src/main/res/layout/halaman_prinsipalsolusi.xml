@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    tools:context="com.example.projectfrontend.classPrinsipalSolusi.prinsipalsolusiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <RelativeLayout
+        android:id="@+id/relative40ps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/komponenkotaktriz40ps"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/kotakhome" />
+
+        <TextView
+            android:id="@+id/judul40ps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_semib"
+            android:gravity="center"
+            android:text="@string/title40inventiveprinciples"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/komponenGaris40ps"
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/judul40ps"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/stroke"
+            android:backgroundTint="@color/white"/>
+
+        <SearchView
+            android:id="@+id/searchbuttonps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/komponenkotaktriz40ps"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/buttonsearch"
+            android:iconifiedByDefault="false"
+            android:queryBackground="@drawable/searchstroke"
+            android:queryHint="Search" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleViewps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchbuttonps"
+            android:paddingLeft="30dp"
+            android:paddingRight="18dp"
+            android:paddingBottom="12dp" />
+    </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

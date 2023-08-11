@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_sheet_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="40dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_sheet"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="5dp"
+                android:background="@color/secondary"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/titlrsheet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/principles"
+                android:fontFamily="@font/tajawalregular"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:textColor="@color/secondary"/>
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchbarps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titlrsheet"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/buttonsearch"
+                android:iconifiedByDefault="false"
+                android:queryBackground="@drawable/searchstroke"
+                android:queryHint="Search" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclePrinciples"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/searchbarps"
+                android:layout_marginTop="6dp"
+                tools:listitem="@layout/list_principles"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relativepenjelasanp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:id="@+id/komponenkotakpenjelasan"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/kotakhome" />
+
+                <TextView
+                    android:id="@+id/tvjudulpenjelasan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/komponenkotakpenjelasan"
+                    android:layout_alignTop="@id/komponenkotakpenjelasan"
+                    android:layout_alignRight="@id/komponenkotakpenjelasan"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center_horizontal"
+                    android:text="@string/judulpenjelasanp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buletpenjelasanp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/tvjudulpenjelasan"
+                    android:layout_alignLeft="@+id/kotakjudulp"
+                    android:layout_alignRight="@id/kotakjudulp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="110dp"
+                    android:background="@drawable/buletnomor"
+                    android:fontFamily="@font/poppins_semib"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="#000000" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/kotakjudulp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buletpenjelasanp"
+                    android:layout_alignLeft="@id/komponenkotakpenjelasan"
+                    android:layout_alignRight="@id/komponenkotakpenjelasan"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="70dp"
+                    android:background="@drawable/kotakpenjelasan"
+                    android:fontFamily="@font/poppins_semib"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="nama P"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativepenjelasanp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relativepenjelasanp1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="24dp"
+                android:paddingTop="4dp"
+                android:paddingRight="24dp"
+                android:paddingBottom="4dp">
+
+                <TextView
+                    android:id="@+id/judulpenjelasanp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/poppins_semib"
+                    android:text="@string/subjudulmeaning"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/garisisolusip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/judulpenjelasanp"
+                    android:layout_alignLeft="@id/judulpenjelasanp"
+                    android:layout_alignRight="@id/judulpenjelasanp"
+                    android:background="@drawable/stroke"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvpenjelasanp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/garisisolusip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/popins_reguler"
+                    android:justificationMode="inter_word"
+                    android:lineSpacingExtra="4dp"
+                    android:text="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. veniam consequat sunt nostrud amet."
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/judulsaep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvpenjelasanp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/poppins_semib"
+                    android:gravity="center"
+                    android:text="@string/subjudulsae"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/garisisaep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/judulsaep"
+                    android:layout_alignLeft="@id/judulsaep"
+                    android:layout_alignRight="@id/judulsaep"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/stroke"
+                    android:backgroundTint="@color/black" />
+
+                <TextView
+                    android:id="@+id/tvpenjelasansae"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/judulsaep"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/popins_reguler"
+                    android:justificationMode="inter_word"
+                    android:lineSpacingExtra="4dp"
+                    android:text="Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.  aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. veniam consequat sunt nostrud amet."
+                    android:textColor="#121212"
+                    android:textSize="14dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

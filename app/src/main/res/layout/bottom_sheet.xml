@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="40dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_sheet"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical">
+            
+            <View
+                android:layout_width="30dp"
+                android:layout_height="5dp"
+                android:background="@color/secondary"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/reference"
+                android:fontFamily="@font/tajawalregular"
+                android:textStyle="bold"
+                android:textSize="28dp"
+                android:textColor="@color/secondary"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="25dp"
+                app:cardBackgroundColor="@color/secondary"></androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                app:cardBackgroundColor="@color/secondary"></androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

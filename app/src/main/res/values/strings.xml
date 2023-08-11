@@ -1,0 +1,305 @@
+<resources>
+    <string name="app_name" translatable="false">TRIZ Business and Management</string>
+    //halaman onboarding
+    <string name="onboardingButton1">Next</string>
+    <string name="onboardingButton2">Get Started</string>
+    <string name="onboardingTitle1">About Apps</string>
+    <string name="onboardingDesc1">This application is a problem-solving application that implements the TRIZ problem-solving method introduced by Genrikh Saulovich Altshuller in a mobile form.</string>
+    <string name="onboardingTitle2">Main Feature</string>
+    <string name="onboardingDesc2">The main feature of this application is the use of the contradiction matrix to find recommended solutions using the TRIZ method of problems that have contradictions. It is obtained based on the results of the parameters that want to be improved and the parameters that hinder.</string>
+    <string name="onboardingTitle3">For new Users</string>
+    <string name="onboardingDesc3">In addition to the use of matrix contradiction, this application also offers learning features for users who do not understand or know what TRIZ is and how to implement it.</string>
+
+    //halaman home
+    <string name="home2Title">Home</string>
+    <string name="matrix2Set">Set the Contradiction</string>
+    <string name="matrix2Improving">Improving parameter</string>
+    <string name="matrix2Worsening">Worsening parameter</string>
+    <string name="principles">Principles</string>
+    <string name="subPrinciples">The TRIZ Matrix proposes the following Principles to solve the contradiction:</string>
+    <string name="buttonTriz">Get to Know About TRIZ</string>
+    <string name="chooseP">Choose the Parameter</string>
+
+    //halaman understanding
+    <string name="understandingTitle">TRIZ Understanding</string>
+    <string name="postTest">Do the Post Test</string>
+    <string name="whatIs">What is TRIZ</string>
+    <string name="businessManagement">How can it works in Business and Managemnt</string>
+    <string name="systemParameter">39 System Parameter</string>
+    <string name="inventivePrinciples">40 Inventive Principles</string>
+    <string name="contradictionMatrix">Contradiction Matrix</string>
+
+    //navigation menu
+    <string name="menu_name">Navigation Drawer</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+
+    //what's triz
+    <string name="trizTitle">Teoriya Resheniya Izobretatelskikh Zadatch (TRIZ)</string>
+    <string name="page1">TRIZ is one of the methods introduced by Genrikh Saulovich Altshuller by offering 40 principal solutions to overcome the contradictions of the problems that occur from 39 existing parameters. Altshuller has analyzed 200,000 existing patents and then he made a pattern of solutions to the problems solved by these patents. After that, from these strong patterns Altshuller collected them again into 40,000 patents.</string>
+    <string name="page2">From the 40,000 patents with strong patterns that he got, Altshuller concluded that there are cause variables called 39 system parameters and solution variables for each problem called 40 principal solutions.</string>
+    <string name="page3">TRIZ provides great principles and concrete tools for creative thinking in a range of technologies.\n TRIZ is also widely used in various technical and business worlds in many industries to assist in the generation of solutions to problems.</string>
+    <string name="page4">Therefore, Altshuller introduced the TRIZ method with 39 parameter systems and 40 Solution Principals which have been compressed from 40,000 existing patents.\n TRIZ is a philosophy of science and technology method with a systematic and structured way of thinking to find creative and innovative development solution ideas to a problem, a system that includes knowledge technology for databases.</string>
+    <string name="page5">TRIZ can be used in creating new products to generate product innovation ideas or ideas to make the innovation process more effective and efficient such as reducing operational costs or expenses.</string>
+    <string name="reference">Video References</string>
+
+    //39 System Parameter
+    <string name="parameterTitle">39 System Parameter</string>
+    <string name="parameter">The Parameter</string>
+    <string name="parameterDesc">The principle of 39 System Parameters in TRIZ are standard problem types used for crystallized problems and what variables conflict with each other. This principle is the fundamental consideration for identifying system parameters that are improving and worsening. These parameters are then compared against each other to form the TRIZ contradiction matrix(San, 2019).</string>
+    <string name="meaningpTitle">Meaning</string>
+    <string name="saepTitle">Synonyms, Antonims, and Equivalent meanings</string>
+
+    //40 Inventive Principles
+    <string name="principlesTitle">40 Inventive Principles</string>
+    <string name="thePrinciples">The Principles</string>
+    <string name="princplesDesc">The Principle of 40 Principal Solutions in TRIZ is used to provide solutions to overcome the intersection that occurs between system parameters. This principle is the basis consideration of the problem solving pattern(San, 2019).</string>
+    <string name="principlesSol">Solutions</string>
+    <string name="principlesIllu">Illustrations</string>
+    <string name="illuButton">Illustration</string>
+
+    //Business and Management
+    <string name="bamTitle">How can it Work in Business and Management</string>
+    <string name="bamDesc1">TRIZ for Business and Management</string>
+    <string name="bamDesc2">Are you ready to face new challenges to grow your business? Are you able to develop new breakthrough ideas that can give you an edge over the competition? TRIZ can be used to assist in developing innovative ideas for business strategies effectively and efficiently.</string>
+    <string name="busDesc1">TRIZ in Business</string>
+    <string name="busDesc2">In an effort to generate new product introduction is a radical innovation process, Obviously the process is not efficient at all. Because very limited resources will cause very expensive costs in developing new products coupled with a high risk of success. The worst case scenario is when you find that the product is not accepted in the market. There needs to be a better way than just a trial and error brainstorming approach to generating ideas. We need to use structured and systematic tools like TRIZ to reduce the quantity of effort, while increasing the quality of ideas. This reduces time and resources for new product validation and success. Business people who can adopt this method and improve their innovation process efficiently can have a high chance to compete with competitors.</string>
+    <string name="manDesc1">TRIZ in Management</string>
+    <string name="manDesc2">Roles in management typically involve leading and coordinating a group of people to achieve a set of goals or objectives. In the process of achieving this goal or objective, the group will very often need to tackle a range of simple to complex problems. In most cases, management problems are complex and have multiple root causes. The root causes are not easily identified and are interrelated where improvements in one area can lead to improvement but also give rise to worsening problems in different areas. This is an often overlooked contradiction.</string>
+    <string name="manDesc3">Problems with multiple root causes cannot be solved through conventional methods. it will be essential to equip the management team with sophisticated problem solving techniques such as TRIZ to solve complex problems. It has been proven that technical methodologies and tools can be borrowed and used effectively to assist in the field of management. Management teams that can solve complex problems and are able to cope with increasing complexity will have an added advantage in a globalized future.</string>
+
+
+    //Contradiction Matrix Material
+    <string name="contmatTitle">Contradiction Matrix</string>
+    <string name="contmatDesc1">The TRIZ method uses the principle of matrix contradiction as an initial analysis in finding the recommended solution results offered by the TRIZ method and is obtained from the technical intersection between the increasing parameter and the deteriorating parameter. The intersection technique works with when trying to increase a system parameter, other aspects will decrease. The intersection is determined by using the concept of 39 parameter systems in the TRIZ method.</string>
+    <string name="contmatDesc2">Based on the 39 parameter systems, the contradiction matrix records 4 principal solutions for each type of problem in the form of a 39x39 table. The contradiction matrix will identify to provide solution recommendations based on 40 solution principals that have the potential to solve existing problems according to a predetermined parameter system. The contradiction matrix is used as the core in the database in this application.</string>
+    <string name="contuseDesc1">The expression of technical contradiction is in the form of: if the manipulative variable changes, the response variable #1 increases, but the response variable #2 worsens. Example: If more incentives are given to employees, then employee retention increases but this will complicate the company compensation and benefits operations:</string>
+    <string name="contuseDesc2">Based on the predetermined parameters, the recommended inventive solution principles are as follows: (2), (35), (22), (26)</string>
+    <string name="caseStudy">Case Study</string>
+
+
+    //komponen umum
+    <string name="textsearch">Search</string>
+    //halaman home
+    <string name="trizlearning">TRIZ Understanding</string>
+    <string name="usecontradiction">Use Contradiction Matrix</string>
+    <string name="chooselanguage">Choose Language</string>
+
+    //halaman home indo
+    <string name="judul1ind">TRIZ</string>
+    <string name="judul2ind">untuk</string>
+    <string name="judul3ind">Bisnis dan Manajemen</string>
+    <string name="trizlearningind">Memahami TRIZ</string>
+    <string name="usecontradictionind">Gunakan Matriks Kontradiksi</string>
+    <string name="languageind">IND</string>
+    <string name="languageeng">ENG</string>
+    <string name="chooselanguageind">Pilih Bahasa</string>
+
+    //halaman triz learning
+    <string name="learning">Understanding</string>
+    <string name="whatistriz">What is TRIZ</string>
+    <string name="trizforbam">How can it work in <br /> Business &amp; Management </string>
+    <string name="ptriz">39 System Parameters</string>
+    <string name="pstriz">40 Inventive Principles</string>
+    <string name="contradictionM">Contradiction Matrix</string>
+    <string name="casestudy">Case Study</string>
+
+    //halaman triz learning indo
+    <string name="judultlearning1ind">TRIZ</string>
+    <string name="judultlearning2ind">Pemahaman</string>
+    <string name="whatistrizind">Apa itu TRIZ</string>
+    <string name="trizforbamind">Bagaimana cara kerja pada <br /> Bisnis &amp; Manajemen </string>
+    <string name="ptrizind">39 Sistem Parameter</string>
+    <string name="pstrizind">40 Solusi Inventif</string>
+    <string name="contradictionMind">Kontradiksi Matriks</string>
+    <string name="casestudyind">Studi Kasus</string>
+
+    //halaman what is TRIZ
+    <string name="titlewit">What is TRIZ</string>
+    <string name="subtitlewit">Teoriya Resheniya Izobretatelskikh Zadatch (TRIZ)</string>
+    <string name="penjelasantrizind">\n TRIZ adalah salah satu metode yang dikenalkan oleh Genrikh Saulovich Altshuller dengan menawarkan 40 prinsipal solusi untuk mengatasi kontradiksi masalah yang terjadi dari 39 parameter yang ada.  Altshuller telah menganalisis 200.000 paten yang ada kemudian dia membuat pola solusi dari masalah-masalah yang diselesaikan oleh paten tersebut. Setelah itu, dari pola-pola yang kuat tersebut Altshuller mengumpulkannya lagi menjadi 40.000 paten.  Dari 40.000 paten dengan pola-pola kuat yang didapatkkannya ini Altshuller menyimpulkan ada variable sebab yang disebut dengan 39 sistem parameter dan variable solusi dari setiap permasalahan yang disebut dengan 40 prinsipal solusi. Oleh karena itu, Altshuller memperkenalkan metode TRIZ dengan 39 sistem parameter dan 40 Prinsipal Solusi yang sudah dikompresi dari 40.000 paten yang ada.\n TRIZ merupakan filosofi metode ilmu dan teknologi dengan cara berpikir yang sistematis dan terstruktur untuk mencari ide solusi pengembangan yang kreatif dan inovatif terhadap suatu permasalahan, sistem yang mencakup teknologi pengetahuan untuk basis data. TRIZ menyediakan prinsip-prinsip yang hebat dan alat yang konkrit untuk pemikiran kreatif dalam rangkaian teknologi.\n TRIZ juga sudah cukup banyak digunakan di berbagai dunia teknis dan non teknis di banyak industri untuk membantu dalam pembangkitan ide-ide solusi dari suatu permasalahan. TRIZ dapat digunakan dalam menciptakan produk baru untuk menghasilkan ide inovasi produk atau ide untuk membuat proses inovasi menjadi lebih efektif dan efisien seperti mengurangi biaya atau pengeluaran operasional.</string>
+    <string name="penjelasantrizeng">\n TRIZ is one of the methods introduced by Genrikh Saulovich Altshuller by offering 40 principal solutions to overcome the contradictions of the problems that occur from 39 existing parameters. Altshuller has analyzed 200,000 existing patents and then he made a pattern of solutions to the problems solved by these patents. After that, from these strong patterns Altshuller collected them again into 40,000 patents. From the 40,000 patents with strong patterns that he got, Altshuller concluded that there are cause variables called 39 system parameters and solution variables for each problem called 40 principal solutions. Therefore, Altshuller introduced the TRIZ method with 39 parameter systems and 40 Solution Principals which have been compressed from 40,000 existing patents.\n TRIZ is a philosophy of science and technology method with a systematic and structured way of thinking to find creative and innovative development solution ideas to a problem, a system that includes knowledge technology for databases. TRIZ provides great principles and concrete tools for creative thinking in a range of technologies.\n  TRIZ is also widely used in various technical and business worlds in many industries to assist in the generation of solutions to problems. TRIZ can be used in creating new products to generate product innovation ideas or ideas to make the innovation process more effective and efficient such as reducing operational costs or expenses.</string>
+
+    //halaman triz for business and management
+    <string name="titletrizforbam">How can it work in <br /> Business &amp; Management </string>
+    <string name="subtitletrizforbam"> TRIZ for Business &amp; Management</string>
+    <string name="trizforbussiness"> TRIZ in Bussiness</string>
+    <string name="trizformanajement"> TRIZ in Management</string>
+    <string name="penjelasantrizforbam_eng">Are you ready to face new challenges to grow your business? Are you able to develop new breakthrough ideas that can give you an edge over the competition? TRIZ can be used to assist in developing innovative ideas for business strategies effectively and efficiently.</string>
+    <string name="penjelasantrizforbisnis_eng">In an effort to generate new product introduction is a radical innovation process, Obviously the process is not efficient at all. Because very limited resources will cause very expensive costs in developing new products coupled with a high risk of success. The worst case scenario is when you find that the product is not accepted in the market. There needs to be a better way than just a trial and error brainstorming approach to generating ideas. We need to use structured and systematic tools like TRIZ to reduce the quantity of effort, while increasing the quality of ideas. This reduces time and resources for new product validation and success. Business people who can adopt this method and improve their innovation process efficiently can have a high chance to compete with competitors.</string>
+    <string name="penjelasantrizformanajemen_eng">Roles in management typically involve leading and coordinating a group of people to achieve a set of goals or objectives. In the process of achieving this goal or objective, the group will very often need to tackle a range of simple to complex problems. In most cases, management problems are complex and have multiple root causes. The root causes are not easily identified and are interrelated where improvements in one area can lead to improvement but also give rise to worsening problems in different areas. This is an often overlooked contradiction. Problems with multiple root causes cannot be solved through conventional methods. it will be essential to equip the management team with sophisticated problem solving techniques such as TRIZ to solve complex problems. It has been proven that technical methodologies and tools can be borrowed and used effectively to assist in the field of management. Management teams that can solve complex problems and are able to cope with increasing complexity will have an added advantage in a globalized future.</string>
+    <string name="subtitletrizforbamind"> TRIZ untuk Bisnis &amp; Manajemen</string>
+    <string name="trizuntukbisnis">TRIZ untuk Bisnis</string>
+    <string name="trizuntukmanajemen">TRIZ untuk Manajemen</string>
+    <string name="penjelasantrizforbisnis_ind">Dalam upaya untuk menghasilkan pengenalan produk baru adalah proses inovasi radikal, Jelas prosesnya tidak efisien sama sekali. Karena sumber daya yang sangat terbatas akan menyebabkan biaya yang sangat mahal dalam mengembangan produk baru ditambah dengan risiko keberhasilan yang tinggi. Skenario kasus terburuk adalah ketika Anda menemukan bahwa produk tersebut tidak diterima di pasar. Perlu ada cara yang lebih baik dari sekedar pendekatan coba-coba brainstorming untuk menghasilkan ide. Kita perlu menggunakan alat terstruktur dan sistematis seperti TRIZ untuk mengurangi kuantitas upaya, sekaligus meningkatkan kualitas ide. Ini mengurangi waktu dan sumber daya untuk validasi dan kesuksesan produk baru. Para pelaku bisnis yang dapat mengadopsi metode ini dan meningkatkan proses inovasi mereka secara efisien dapat memiliki peluang yang tinggi untuk bersaing dengan pesaing.</string>
+    <string name="penjelasantrizformanajemen_ind">Peran dalam manajemen biasanya melibatkan memimpin dan mengoordinasikan sekelompok orang untuk mencapai serangkaian tujuan atau sasaran. Dalam proses mencapai tujuan atau sasaran ini, kelompok akan sangat sering perlu menangani berbagai masalah sederhana hingga kompleks. Dalam kebanyakan kasus, masalah manajemen bersifat kompleks dan disebabkan oleh berbagai akar penyebab. Akar penyebab tidak mudah diidentifikasi dan saling terkait di mana perbaikan di satu area dapat mengarah pada perbaikan tetapi juga menimbulkan masalah yang memburuk di area yang berbeda. Ini adalah kontradiksi yang sering diabaikan. Masalah dengan banyak akar penyebab tidak dapat diselesaikan melalui metode konvensional. akan sangat penting untuk melengkapi tim manajemen dengan teknik pemecahan masalah yang canggih seperti TRIZ untuk menyelesaikan masalah yang kompleks. Telah terbukti bahwa metodologi dan alat teknis dapat dipinjam dan digunakan secara efektif untuk membantu di bidang manajemen. Tim manajemen yang dapat memecahkan masalah yang kompleks dan mampu mengatasi kompleksitas yang meningkat akan memiliki keuntungan tambahan di masa depan yang terglobalisasi.</string>
+    <string name="penjelasantrizforbam_ind">Apakah anda siap menghadapi tantangan baru untuk mengembangkan bisnis anda? Apakah anda mampu mengembangkan ide-ide terobosan baru yang dapat memberi anda keunggulan terhadap persaingan? TRIZ dapat digunakan untuk membantu dalam hal pengembangan ide inovasi terhadap strategi bisnis secara efektif dan efisien. </string>
+
+    //halaman 39 parameter
+    <string name="title39parameters"> 39 System Parameters</string>
+    <string name="textparameters">39 Parameters</string>
+    <string name="p1text">Weight of moving object</string>
+    <string name="p2text">Weight of stationary object</string>
+    <string name="p3text">Length of moving object</string>
+    <string name="p4text">Length of stationary object</string>
+    <string name="p5text">Area of moving object</string>
+    <string name="p6text">Area of stationary object</string>
+    <string name="p7text">Volume of moving object</string>
+    <string name="p8text">Volume of stationary object</string>
+    <string name="p9text">Speed</string>
+    <string name="p10text">Force</string>
+    <string name="p11text">Stress or pressure</string>
+    <string name="p12text">Shape</string>
+    <string name="p13text">Stability of the object ’s composition</string>
+    <string name="p14text">Strength</string>
+    <string name="p15text">Duration of action by a moving object</string>
+    <string name="p16text">Duration of action by a stationary object</string>
+    <string name="p17text">Temperature</string>
+    <string name="p18text">Illumination intensity</string>
+    <string name="p19text">Use of energy by moving object</string>
+    <string name="p20text">Use of energy by stationary object</string>
+    <string name="p21text">Power</string>
+    <string name="p22text">Loss of Energy</string>
+    <string name="p23text">Loss of substance</string>
+    <string name="p24text">Loss of Information</string>
+    <string name="p25text">Loss of Time</string>
+    <string name="p26text">Quantity of substance/the matter</string>
+    <string name="p27text">Reliability</string>
+    <string name="p28text">Measurement accuracy</string>
+    <string name="p29text">Manufacturing precision</string>
+    <string name="p30text">External harm affects the object</string>
+    <string name="p31text">Object - generated harmful factors</string>
+    <string name="p32text">Ease of manufacture</string>
+    <string name="p33text">Ease of operation</string>
+    <string name="p34text">Ease of repair</string>
+    <string name="p35text">Adaptability or versatility</string>
+    <string name="p36text">Device complexity</string>
+    <string name="p37text">Difficulty of detecting and measuring</string>
+    <string name="p38text">Extent of automation</string>
+    <string name="p39text">Productivity</string>
+
+    //halaman 40 inventive principles
+    <string name="title40inventiveprinciples">40 Inventive Principles</string>
+    <string name="textprinciplesolution"> 40 <br /> PRINCIPLES SOLUTION</string>
+    <string name="ps1name">Segmentation</string>
+    <string name="ps2name">Taking Out</string>
+    <string name="ps3name">Local Quality</string>
+    <string name="ps4name">Asymmetry</string>
+    <string name="ps5name">Merging</string>
+    <string name="ps6name">Universality</string>
+    <string name="ps7name">Nesting</string>
+    <string name="ps8name">Anti-weight</string>
+    <string name="ps9name">Preliminary Counteraction</string>
+    <string name="ps10name">Preliminary Action</string>
+    <string name="ps11name">Beforehand Cushloning</string>
+    <string name="ps12name">Equippotentiality</string>
+    <string name="ps13name">Inversion</string>
+    <string name="ps14name">Spheroidality Curvature</string>
+    <string name="ps15name">Dynamics</string>
+    <string name="ps16name">Partial Or Excessive Act</string>
+    <string name="ps17name">Another Dimension</string>
+    <string name="ps18name">Mechanical Vibration</string>
+    <string name="ps19name">Periodic Action</string>
+    <string name="ps20name">Continuity Of Useful Action</string>
+    <string name="ps21name">Skipping</string>
+    <string name="ps22name">Convert Harm Into Benefit</string>
+    <string name="ps23name">Feedback</string>
+    <string name="ps24name">Intermediary</string>
+    <string name="ps25name">Self Service</string>
+    <string name="ps26name">Copying</string>
+    <string name="ps27name">Cheap Short-Ling Objects</string>
+    <string name="ps28name">Mechanical Subtitution</string>
+    <string name="ps29name">Pneumatics and Hydraulics</string>
+    <string name="ps30name">Flexible Shelss and Thin Film</string>
+    <string name="ps31name">Porous Materials</string>
+    <string name="ps32name">Color Changes</string>
+    <string name="ps33name">Homogenety</string>
+    <string name="ps34name">Discarding and Recovering</string>
+    <string name="ps35name">Parameter Change</string>
+    <string name="ps36name">Phase Transition</string>
+    <string name="ps37name">Thermal Expansion</string>
+    <string name="ps38name">Strong Oxidants</string>
+    <string name="ps39name">Inert Environment</string>
+    <string name="ps40name">Composite Materials</string>
+
+    //halaman kontradiksi matriks
+    <string name="contradictionm">Contradiction Matrix</string>
+    <string name="setcontradictionm">Set the contradiction</string>
+    <string name="improvef">Improving parameter</string>
+    <string name="worseningf">Worsening parameter</string>
+    <string name="choosef">choose the features</string>
+    <string name="resultps">Result the principles</string>
+    <string name="hintresult">The Principles Solving of contradiction will appear here</string>
+    <string name="hintresult2">This contradiction has no solution proposed by the TRIZ Principles</string>
+
+    // halaman tl kontradiksi
+    <string name="judulpenjelasancm_ind">Apa itu Kontradiksi Matriks</string>
+    <string name="penjelasankontradiksi_eng">The TRIZ method uses the principle of matrix contradiction as an initial analysis in finding the recommended solution results offered by the TRIZ method and is obtained from the technical intersection between the increasing parameter and the deteriorating parameter. The intersection technique works with when trying to increase a system parameter, other aspects will decrease. The intersection is determined by using the concept of 39 parameter systems in the TRIZ method. Based on the 39 parameter systems, the contradiction matrix records 4 principal solutions for each type of problem in the form of a 39x39 table. The contradiction matrix will identify to provide solution recommendations based on 40 solution principals that have the potential to solve existing problems according to a predetermined parameter system. The contradiction matrix is used as the core in the database in this application.</string>
+    <string name="penjelasankontradiksi_ind">Metode TRIZ menggunakan prinsip kontradiksi matriks yang bertujuan untuk sebagai analisis awal dalam mencari rekomendasi hasil solusi yang ditawarkan oleh metode TRIZ dan didapatkan dari teknis persimpangan antara parameter yang meningkat dan parameter yang memburuk. Teknis persimpangan tersebut bekerja dengan ketika ingin mencoba meningkatkan suatu parameter sistem, maka aspek lain akan mengalami penurunan. Persimpangan tersebut ditentukan dengan menggunakan konsep 39 sistem parameter pada metode TRIZ. Dengan berdasarkan 39 sistem parameter tersebut matriks kontradiksi mencatat 4 prinsipial solusi terasa pada tiap-tiap tipe permasalahan nya dalam bentuk tabel 39x39. Matriks kontradiksi akan mengidentifikasi untuk memberikan rekomendasi solusi berdasarkan 40 prinsipal solusi yang berpotensi dapat memecahkan masalah yang ada sesuai dengan sistem parameter yang sudah ditentukan. Matriks kontradiksi tersebut digunakan sebagai inti dalam basis data pada aplikasi ini.</string>
+    <string name="subtitle_carakerja_eng">How To Use</string>
+    <string name="penjelasan_carakerja_eng">The expression of technical contradiction is in the form of: if the manipulative variable changes, the response variable #1 increases, but the response variable #2 worsens. Example: If more incentives are given to employees, then employee retention increases but this will complicate the company compensation and benefits operations:</string>
+    <string name="penjelasan_carakerja_eng2">Based on the predetermined parameters, the recommended inventive solution principles are as follows: (2), (35), (22), (26)</string>
+    <string name="subtitle_carakerja_ind">Cara Menggunakan</string>
+    <string name="penjelasan_carakerja_ind">Ungkapan kontradiksi teknis berupa: jika variable manipulatif berubah maka variable respons #1 meningkat, tetapi menanggapi variable #2 yang memburuk. Contoh: Jika lebih banyak intensif yang diberikan kepada karyawan, maka retensi karyawan meningkat tetapi ini akan memperumit operasi kompensasi dan manfaat perusahaan:</string>
+    <string name="penjelasan_carakerja_ind2">Berdasarkan parameter yang sudah ditentukan , maka prinsip solusi inventif yang direkomendasikan adalah sebagai berikut: (2), (35), (22), (26)</string>
+
+    //halaman penjelasan
+    <string name="judulpenjelasanps">INVENTIVE PRINCIPLES</string>
+    <string name="judulpenjelasanp">PARAMETER</string>
+    <string name="judulpenjelasancs">CASE STUDY</string>
+    <string name="subpenjelasancs1">Problem:</string>
+    <string name="subpenjelasancs2">How to use TRIZ?</string>
+    <string name="subppenjelasancs3">Required parameters:</string>
+    <string name="subpenjelasancs4">Available solutions:</string>
+    <string name="subjudulilustrasi">Ilustration</string>
+    <string name="subjudulpenjelasan">Solution</string>
+    <string name="subjudulmeaning">Meaning</string>
+    <string name="subjudulsae">Synonyms, Antonims, and Equivalent meanings</string>
+
+    <string-array name="parametercm">
+        <item>Choose The Features</item>
+        <item name="p1text">1. Weight of moving object</item>
+        <item name="p2text">2. Weight of stationary object</item>
+        <item name="p3text">3. Length of moving object</item>
+        <item name="p4text">4. Length of stationary object</item>
+        <item name="p5text">5. Area of moving object</item>
+        <item name="p6text">6. Area of stationary object</item>
+        <item name="p7text">7. Volume of moving object</item>
+        <item name="p8text">8. Volume of stationary object</item>
+        <item name="p9text">9. Speed</item>
+        <item name="p10text">10. Force</item>
+        <item name="p11text">11. Stress or pressure</item>
+        <item name="p12text">12. Shape</item>
+        <item name="p13text">13. Stability of the object ’s composition</item>
+        <item name="p14text">14. Strength</item>
+        <item name="p15text">15. Duration of action by a moving object</item>
+        <item name="p16text">16. Duration of action by a stationary object</item>
+        <item name="p17text">17. Temperature</item>
+        <item name="p18text">18. Illumination intensity</item>
+        <item name="p19text">19. Use of energy by moving object</item>
+        <item name="p20text">20. Use of energy by stationary object</item>
+        <item name="p21text">21. Power</item>
+        <item name="p22text">22. Loss of Energy</item>
+        <item name="p23text">23. Loss of substance</item>
+        <item name="p24text">24. Loss of Information</item>
+        <item name="p25text">25. Loss of Time</item>
+        <item name="p26text">26. Quantity of substance/the matter</item>
+        <item name="p27text">27. Reliability</item>
+        <item name="p28text">28. Measurement accuracy</item>
+        <item name="p29text">29. Manufacturing precision</item>
+        <item name="p30text">30. External harm affects the object</item>
+        <item name="p31text">31. Object - generated harmful factors</item>
+        <item name="p32text">32. Ease of manufacture</item>
+        <item name="p33text">33. Ease of operation</item>
+        <item name="p34text">34. Ease of repair</item>
+        <item name="p35text">35. Adaptability or versatility</item>
+        <item name="p36text">36. Device complexity</item>
+        <item name="p37text">37. Difficulty of detecting and measuring</item>
+        <item name="p38text">38. Extent of automation</item>
+        <item name="p39text">39. Productivity</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

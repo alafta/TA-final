@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivstudycase"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/kotak_cs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_cs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Study Case 1"
+        android:fontFamily="@font/poppins_semib"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivstudycase"
+        app:layout_constraintStart_toStartOf="@+id/ivstudycase"
+        app:layout_constraintTop_toTopOf="@+id/ivstudycase"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/ivarrowcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_cs"
+        app:layout_constraintEnd_toEndOf="@+id/ivstudycase"
+        app:layout_constraintTop_toTopOf="@+id/tv_cs"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/arrow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

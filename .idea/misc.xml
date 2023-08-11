@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TA-main/app/src/main/res/drawable/bg_nav.xml" value="0.2175925925925926" />
+        <entry key="..\:/TA-main/app/src/main/res/drawable/bg_param.xml" value="0.14322916666666666" />
+        <entry key="..\:/TA-main/app/src/main/res/drawable/bottom_sheet.xml" value="0.21666666666666667" />
+        <entry key="..\:/TA-main/app/src/main/res/drawable/buletnomor.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/drawable/case_bg.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/activity_bam.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/activity_contramatrix.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/activity_parameter.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/bam_item.xml" value="0.12604166666666666" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/case_item.xml" value="0.336" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/cont_sheet.xml" value="0.17923823749066467" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/parameter_sheet.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/activity_home2.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/activity_nav.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/activity_principles.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/activity_triz.xml" value="0.12001811594202899" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/activity_triz_understanding.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/fragment_cm1.xml" value="0.264" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/halaman_kontradiksi.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/list_principles.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/principles_desc_list.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/menu/nav_menu.xml" value="0.4" />
+        <entry key="..\:/TA/TA/app/src/main/res/drawable/arrow.xml" value="0.1515625" />
+        <entry key="..\:/TA/TA/app/src/main/res/drawable/ic_baseline_maximize_24.xml" value="0.1515625" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/activity_intro.xml" value="0.2" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/activity_slide.xml" value="0.13541666666666666" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/activity_splash_screen.xml" value="0.12708333333333333" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/fragment_cm1.xml" value="0.1634963768115942" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/fragment_cm2.xml" value="0.14266304347826086" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/halaman_home.xml" value="0.1634963768115942" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/halaman_kontradiksi.xml" value="0.1634963768115942" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/halaman_trizlearning.xml" value="0.13541666666666666" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/halaman_whatistriz.xml" value="0.13541666666666666" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/home_new.xml" value="0.13541666666666666" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/intro_slide.xml" value="0.2" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/list_itemps.xml" value="0.13541666666666666" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/list_itemstudycase.xml" value="0.13541666666666666" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/spinner_layout.xml" value="0.13541666666666666" />
+        <entry key="..\:/TA/TA/app/src/main/res/layout/splash_screen.xml" value="0.1634963768115942" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/bottom_sheet.xml" value="0.2111111111111111" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/buletnomor.xml" value="0.26614583333333336" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/button_new.xml" value="0.26614583333333336" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/circle_plus.xml" value="0.26614583333333336" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/gradient_background.xml" value="0.14166666666666666" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/ic_business.xml" value="0.14166666666666666" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/ic_contradictionmatrix.xml" value="0.14166666666666666" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/ic_infocircle.xml" value="0.26614583333333336" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/ic_whatis.xml" value="0.26614583333333336" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/kotakcm.xml" value="0.26614583333333336" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/onboarding_indicator_active.xml" value="0.14322916666666666" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/onboarding_indicator_inactive.xml" value="0.14322916666666666" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/sheet_bg.xml" value="0.12760416666666666" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/solution_view.xml" value="0.26614583333333336" />
+        <entry key="..\:/TA/TA3/app/src/main/res/drawable/spinner.xml" value="0.26614583333333336" />
+        <entry key="..\:/TA/TA3/app/src/main/res/font/opensans.xml" value="0.275" />
+        <entry key="..\:/TA/TA3/app/src/main/res/font/poppins_semib.xml" value="0.275" />
+        <entry key="..\:/TA/TA3/app/src/main/res/font/ptserif_bold.xml" value="0.275" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout-v21/activity_nav.xml" value="0.25" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/activity_home2.xml" value="0.2" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/activity_intro.xml" value="0.2" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/activity_nav.xml" value="0.264" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/activity_navigation.xml" value="0.13632246376811594" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/activity_triz.xml" value="0.10400000000000001" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/activity_triz_understanding.xml" value="0.2" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/activity_understanding.xml" value="0.264" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/bottom_sheet.xml" value="0.21089223638470453" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/fragment_parameter.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/halaman_home.xml" value="0.17753623188405798" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/halaman_kontradiksi.xml" value="0.264" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/halaman_parameters.xml" value="0.176" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/halaman_penjelasancs.xml" value="0.15353260869565216" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/halaman_tlkontradiksi.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/halaman_trizlearning.xml" value="0.15353260869565216" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/halaman_whatistriz.xml" value="0.15353260869565216" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/intro_slide.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/list_itemp.xml" value="0.264" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/list_itempenjelasanps.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/list_itemps.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/nav_header.xml" value="0.264" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/onboarding_item.xml" value="0.16485507246376813" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/spinner_layout.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/triz_item.xml" value="0.10400000000000001" />
+        <entry key="..\:/TA/TA3/app/src/main/res/layout/understanding_item.xml" value="0.136" />
+        <entry key="..\:/TA/TA3/app/src/main/res/menu/nav_menu.xml" value="0.264" />
+        <entry key="..\:/TA/TA3/app/src/main/res/menu/popup_menu_design.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable-v24/kotakhome.xml" value="0.116" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable-v24/round.xml" value="0.116" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable/buttoncm.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable/buttonsearch.xml" value="0.1025" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable/buttonsearch2.xml" value="0.1025" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable/searchstroke.xml" value="0.1025" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable/spinner_bg.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/drawable/stroke.xml" value="0.144" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/font/opensans.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/dropdown_40_principles.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_casestudy.xml" value="0.25263157894736843" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_contradiction_matrix.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_home.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_home_new.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_howtouse.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_kontradiksi.xml" value="0.152" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_parameters.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_pengertian.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_penjelasanp.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_penjelasanps.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_prinsipalsolusi.xml" value="0.35239567233384855" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_tlkontradiksi.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_trizforbam.xml" value="0.136" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_trizlearning.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/layout/halaman_whatistriz.xml" value="0.14186851211072665" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/menu/dropdown_40_principles.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/ProjectFrontEnd/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/arrow.xml" value="0.1555" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/button.xml" value="0.115" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/buttoncm.xml" value="0.115" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/circle.xml" value="0.221" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/circle_minus.xml" value="0.216" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/circle_plus.xml" value="0.216" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/dropdown.xml" value="0.115" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/ic_baseline_maximize_24.xml" value="0.216" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/ic_launcher_background.xml" value="0.115" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/kotak_cs.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/kotakhome.xml" value="0.221" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/kotakp.xml" value="0.1555" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/kotakpenjelasan.xml" value="0.101" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/kotakps.xml" value="0.101" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/minus.xml" value="0.216" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/penjelasan_cm.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/plus.xml" value="0.216" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/round.xml" value="0.216" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/searchstroke.xml" value="0.101" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/spinner.xml" value="0.115" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/spinner_bg.xml" value="0.12" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/stroke.xml" value="0.115" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/drawable/stroke_home.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/font/popins_reguler.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/font/poppins_bold.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/dfsdf.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/fragment_cm1.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/fragment_cm2.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_casestudy.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_home.xml" value="0.176" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_kontradiksi.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_parameters.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_parameters2.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_penjelasancs.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_penjelasancs2.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_penjelasanp.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_penjelasanps.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_penjelasanps2.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_prinsipalsolusi.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_prinsipalsolusi2.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_tlkontradiksi.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_trizforbam.xml" value="0.152" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_trizlearning.xml" value="0.12613981762917933" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_whatistriz.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/home_new.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/list_itemp.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/list_itempenjelasanps.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/list_itemps.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/list_itemstudycase.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/list_itemstudycase2.xml" value="0.6071428571428571" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/listviewp.xml" value="0.152" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/main_recycleps.xml" value="0.259375" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/penjelasan_cm.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/layout/spinner_layout.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS TUF/AndroidStudioProjects/trial/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/drawable/kotakcm.xml" value="0.23541666666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/fragment_cm1.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/fragment_cm2.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_casestudy.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_home.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_kontradiksi.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_penjelasancs.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_penjelasanp.xml" value="0.136" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_penjelasanps.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_prinsipalsolusi.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_tlkontradiksi.xml" value="0.176" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_trizforbam.xml" value="0.536" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/halaman_whatistriz.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/home_new.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/list_itemstudycase.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/layout/splash_screen.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/trial/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1515625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

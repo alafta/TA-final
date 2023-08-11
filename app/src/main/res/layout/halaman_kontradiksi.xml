@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    tools:context="com.example.projectfrontend.classKontradiksiMatriks.kontradiksimatriksActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relativecm1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/komponenkotakcm"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/kotakhome" />
+
+                <TextView
+                    android:id="@+id/judulwhatistriz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/poppins_semib"
+                    android:gravity="center"
+                    android:text="@string/contradictionM"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/komponenGariscm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/judulwhatistriz"
+                    android:layout_alignLeft="@id/judulwhatistriz"
+                    android:layout_alignRight="@id/judulwhatistriz"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:background="@drawable/stroke"
+                    android:backgroundTint="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativecm2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/relativecm1"
+                android:layout_alignParentBottom="true"
+                android:paddingLeft="40dp"
+                android:paddingTop="12dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="12dp">
+
+                <ImageView
+                    android:id="@+id/kotakcm1"
+                    android:layout_width="match_parent"
+                    android:layout_height="154dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/kotakcm" />
+
+                <TextView
+                    android:id="@+id/textsetcontradiction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/kotakcm1"
+                    android:layout_alignTop="@id/kotakcm1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/poppins_semib"
+                    android:text="@string/setcontradictionm"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/gariscm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1.4dp"
+                    android:layout_alignLeft="@id/textsetcontradiction"
+                    android:layout_alignRight="@id/textsetcontradiction"
+                    android:layout_alignBottom="@id/textsetcontradiction"
+                    android:background="@drawable/stroke"
+                    android:backgroundTint="#000000" />
+
+                <TextView
+                    android:id="@+id/textimprove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/kotakcm1"
+                    android:layout_alignTop="@id/gariscm1"
+                    android:layout_alignRight="@id/kotakcm1"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/opensans"
+                    android:gravity="center_horizontal"
+                    android:text="@string/improvef"
+                    android:textColor="#000000"
+                    android:textSize="11dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_below="@id/textimprove"
+                    android:layout_alignLeft="@id/kotakcm1"
+                    android:layout_alignRight="@id/kotakcm1"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="28dp"
+                    android:background="@drawable/spinner"
+                    android:paddingHorizontal="20dp"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:id="@+id/textworsening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spinner1"
+                    android:layout_alignLeft="@id/kotakcm1"
+                    android:layout_alignRight="@id/kotakcm1"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/opensans"
+                    android:gravity="center_horizontal"
+                    android:text="@string/worseningf"
+                    android:textColor="#000000"
+                    android:textSize="11dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:layout_below="@id/textworsening"
+                    android:layout_alignLeft="@id/kotakcm1"
+                    android:layout_alignRight="@id/kotakcm1"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="28dp"
+                    android:background="@drawable/spinner"
+                    android:gravity="center_horizontal"
+                    android:paddingHorizontal="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/gariscm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_below="@id/kotakcm1"
+                    android:layout_alignStart="@id/kotakcm1"
+                    android:layout_alignLeft="@id/kotakcm1"
+                    android:layout_alignEnd="@id/kotakcm1"
+                    android:layout_alignRight="@id/kotakcm1"
+                    android:background="@drawable/gariscm"
+                    android:backgroundTint="#57B9FF" />
+
+                <ImageView
+                    android:id="@+id/kotakcm2"
+                    android:layout_width="match_parent"
+                    android:layout_height="360dp"
+                    android:layout_below="@id/gariscm"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/kotakcm" />
+
+                <TextView
+                    android:id="@+id/textrecycle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/kotakcm2"
+                    android:layout_alignTop="@id/kotakcm2"
+                    android:layout_alignRight="@id/kotakcm2"
+                    android:layout_alignBottom="@id/kotakcm2"
+                    android:fontFamily="@font/poppins_semib"
+                    android:gravity="center"
+                    android:text="Solution not available"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/textresult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/kotakcm2"
+                    android:layout_alignTop="@id/kotakcm2"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/poppins_semib"
+                    android:text="@string/resultps"
+                    android:textColor="#000000"
+                    android:textSize="12dp" />
+
+                <ImageView
+                    android:id="@+id/gariscm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1.4dp"
+                    android:layout_alignLeft="@id/textresult"
+                    android:layout_alignRight="@id/textresult"
+                    android:layout_alignBottom="@id/textresult"
+                    android:background="@drawable/stroke"
+                    android:backgroundTint="#000000" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleViewhasilCm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gariscm2"
+                    android:layout_alignLeft="@id/kotakcm2"
+                    android:layout_alignRight="@id/kotakcm2"
+                    android:layout_alignBottom="@id/kotakcm2"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginBottom="14dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

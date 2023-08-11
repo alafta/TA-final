@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="35dp"
+    android:background="#FDFDFD"
+    tools:context=".tlearningActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/komponenKotak"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kotakhome" />
+
+    <ImageView
+        android:id="@+id/komponenJudul"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/komponenKotak"
+        app:srcCompat="@drawable/kotakborder" />
+
+     <TextView
+        android:id="@+id/trizHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/monbaiti_regular"
+        android:text="TRIZ"
+        android:textColor="#000000"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/komponenJudul"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/komponenJudul"
+        app:layout_constraintTop_toTopOf="@+id/komponenJudul" />
+
+
+    <TextView
+        android:id="@+id/learning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/learning"
+        android:fontFamily="@font/monbaiti_regular"
+        android:textColor="#000000"
+        android:textSize="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/komponenJudul"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/komponenJudul"
+        app:layout_constraintTop_toBottomOf="@+id/trizHome" />
+
+    <ImageView
+        android:id="@+id/komponenGaris"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/komponenJudul"
+        app:srcCompat="@drawable/stroke" />
+
+    <Button
+        android:id="@+id/tl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/whatistriz"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/button"
+        app:backgroundTint="#0496FF"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/komponenGaris"/>
+
+    <Button
+        android:id="@+id/tl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/trizforbam"
+        android:fontFamily="@font/poppins_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        app:backgroundTint="#0496FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl1"/>
+
+    <Button
+        android:id="@+id/tl3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/ptriz"
+        android:fontFamily="@font/poppins_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        app:backgroundTint="#0496FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl2"/>
+
+    <Button
+        android:id="@+id/tl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/pstriz"
+        android:fontFamily="@font/poppins_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        app:backgroundTint="#0496FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl3"/>
+
+    <Button
+        android:id="@+id/tl5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/contradictionM"
+        android:fontFamily="@font/poppins_bold"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        app:backgroundTint="#0496FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl4"/>
+
+    <Button
+        android:id="@+id/tl6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/casestudy"
+        android:textAllCaps="false"
+        app:backgroundTint="#0496FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tl5" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

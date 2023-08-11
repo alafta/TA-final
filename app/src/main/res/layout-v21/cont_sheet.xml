@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_sheet_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_sheet"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="40dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="30dp"
+                    android:layout_height="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/secondary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/tajawalregular"
+                    android:text="@string/reference"
+                    android:textColor="@color/secondary"
+                    android:textSize="28dp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/secondary"
+                    app:cardCornerRadius="15dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="10dp"
+                        android:fontFamily="@font/tajawalregular"
+                        android:justificationMode="inter_word"
+                        android:text="@string/parameterDesc"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/gambarcontohcm" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/video2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:cardBackgroundColor="@color/secondary"
+                    app:cardCornerRadius="15dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:fontFamily="@font/tajawalregular"
+                        android:justificationMode="inter_word"
+                        android:text="@string/parameterDesc"
+                        android:textColor="@color/fourth"
+                        android:textSize="16sp" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/caseStudy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="@font/tajawalregular"
+                        android:gravity="center_horizontal"
+                        android:text="@string/reference"
+                        android:textAlignment="center"
+                        android:textColor="@color/secondary"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerCase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="20dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/caseStudy"
+                        tools:listitem="@layout/case_item"
+                        android:nestedScrollingEnabled="false"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

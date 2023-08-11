@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/language_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="20dp"
+        android:src="@drawable/ic_hambergermenu2"
+        android:background="@null"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/titleP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/numberps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@null"
+                    android:fontFamily="@font/montserratbold"
+                    android:gravity="left"
+                    android:padding="5dp"
+                    android:text="1"
+                    android:textColor="@color/text"
+                    android:textSize="32sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/judulps"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/numberps"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:fontFamily="@font/montserratregular"
+                    android:gravity="bottom"
+                    android:padding="5dp"
+                    android:text="nama P"
+                    android:textColor="@color/text"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleP"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="30dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/solutionT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/tajawalextrabold"
+                    android:text="@string/principlesSol"
+                    android:textColor="@color/secondary_2"
+                    android:textSize="16sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/solutionR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/solutionT"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:id="@+id/IlluT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/solutionR"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/tajawalextrabold"
+                    android:gravity="center"
+                    android:text="@string/principlesIllu"
+                    android:textColor="@color/secondary_2"
+                    android:textSize="16sp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/illuR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/IlluT"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

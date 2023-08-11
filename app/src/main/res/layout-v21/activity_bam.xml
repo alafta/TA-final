@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_bam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".classBAM.BamActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/menu_bam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:src="@drawable/ic_hambergermenu2"
+                    android:background="@null"/>
+
+                <TextView
+                    android:id="@+id/homeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/menu_bam"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:text="@string/bamTitle"
+                    android:fontFamily="@font/tajawalextrabold"
+                    android:textStyle="bold"
+                    android:textSize="32sp"
+                    android:textColor="@color/secondary"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/constraintId"
+                android:layout_marginTop="10dp"
+                android:foregroundGravity="center"
+                android:layout_centerInParent="true"
+                android:overScrollMode="never"
+                android:clipToPadding="false">
+            </androidx.viewpager.widget.ViewPager>
+        </RelativeLayout>
+
+    <!--    <include-->
+    <!--        layout="@layout/bottom_sheet"/>-->
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_nav"
+        android:layout_gravity="end"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

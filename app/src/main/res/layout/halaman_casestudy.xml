@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    tools:context="com.example.projectfrontend.classCaseStudy.casestudyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/komponenkotaktlcs"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/kotakhome" />
+
+            <TextView
+                android:id="@+id/judultlcs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins_semib"
+                android:gravity="center"
+                android:text="@string/casestudy"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/komponenGaristlcs1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/judultlcs"
+                    android:layout_alignRight="@id/judultlcs"
+                    android:layout_alignLeft="@id/judultlcs"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/stroke"
+                    android:backgroundTint="@color/white" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleViewcs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/komponenkotaktlcs"
+                android:layout_marginTop="6dp"
+                tools:listitem="@layout/list_itemstudycase" />
+            </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativepenjelasanps1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/komponenkotakpenjelasan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/kotakhome"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tvjudulpenjelasan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/komponenkotakpenjelasan"
+            android:layout_alignTop="@id/komponenkotakpenjelasan"
+            android:layout_alignRight="@id/komponenkotakpenjelasan"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/judulpenjelasanps"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buletpenjelasanps"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/tvjudulpenjelasan"
+            android:layout_alignLeft="@+id/kotakjudulps"
+            android:layout_alignRight="@id/kotakjudulps"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="110dp"
+            android:background="@drawable/buletnomor"
+            android:fontFamily="@font/poppins_semib"
+            android:gravity="center"
+            android:text="10"
+            android:textColor="#000000" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/kotakjudulps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buletpenjelasanps"
+            android:layout_alignLeft="@id/komponenkotakpenjelasan"
+            android:layout_alignRight="@id/komponenkotakpenjelasan"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/kotakpenjelasan"
+            android:fontFamily="@font/poppins_semib"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="nama PS"
+            android:textColor="#000000" />
+    </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relativepenjelasanps2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relativepenjelasanps1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/judulpenjelasanps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/poppins_semib"
+                android:text="@string/subjudulpenjelasan"
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/garisisolusips"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/judulpenjelasanps"
+                android:layout_alignLeft="@id/judulpenjelasanps"
+                android:layout_alignRight="@id/judulpenjelasanps"
+                android:background="@drawable/stroke"
+                android:backgroundTint="@color/black" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lvpenjelasanps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/garisisolusips"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="7dp" />
+
+            <TextView
+                android:id="@+id/judulilustrasips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lvpenjelasanps"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_semib"
+                android:text="@string/subjudulilustrasi"
+                android:textColor="#000000"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/garisilustrasips"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:layout_below="@+id/judulilustrasips"
+                android:layout_alignLeft="@id/judulilustrasips"
+                android:layout_alignRight="@id/judulilustrasips"
+                android:background="@drawable/stroke"
+                android:backgroundTint="@color/black" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lvilustrasips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/judulilustrasips"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="7dp" />
+        </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

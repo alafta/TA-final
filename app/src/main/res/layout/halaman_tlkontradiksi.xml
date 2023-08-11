@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    tools:context="com.example.projectfrontend.classKontradiksiMatriks.tlkontradiksiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/komponenkotaktlk"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/kotakhome" />
+
+        <TextView
+            android:id="@+id/judultlk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppins_semib"
+            android:gravity="center"
+            android:text="@string/contradictionM"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/komponenGaristlk1"
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_below="@id/judultlk"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/stroke"
+            android:backgroundTint="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relative1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/judulpenjelasancm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/poppins_semib"
+            android:text="What is contradiction matrix"
+            android:textColor="#121212"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/komponenGariskontradiksi1"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/judulpenjelasancm"
+            android:layout_alignRight="@id/judulpenjelasancm"
+            android:layout_alignLeft="@id/judulpenjelasancm"
+            android:background="@drawable/stroke"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"/>
+
+        <TextView
+            android:id="@+id/penjelasantrizforcm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/komponenGariskontradiksi1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/popins_reguler"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="2dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="12dp"
+            android:text="@string/penjelasankontradiksi_eng"
+            android:textColor="#121212"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/carakerja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/penjelasantrizforcm"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_semib"
+            android:gravity="center_horizontal"
+            android:text="@string/subtitle_carakerja_eng"
+            android:textColor="#121212"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/komponenGariskontradiksi2"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_below="@id/carakerja"
+            android:layout_alignLeft="@id/carakerja"
+            android:layout_alignRight="@id/carakerja"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/stroke"
+            android:backgroundTint="@color/black" />
+
+        <TextView
+            android:id="@+id/penjelasancarakerjacm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/komponenGariskontradiksi2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/popins_reguler"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="2dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="12dp"
+            android:text="@string/penjelasan_carakerja_eng"
+            android:textColor="#121212"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/gambarcontoh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/penjelasancarakerjacm"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" />
+
+        <TextView
+            android:id="@+id/penjelasancarakerjacm2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gambarcontoh"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/popins_reguler"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="2dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="12dp"
+            android:text="@string/penjelasan_carakerja_eng2"
+            android:textColor="#121212"
+            android:textSize="12dp" />
+
+
+
+    </RelativeLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

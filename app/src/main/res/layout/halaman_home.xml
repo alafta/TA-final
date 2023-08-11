@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD">
+
+    <ImageView
+        android:id="@+id/komponenKotak"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kotakhome" />
+
+    <ImageView
+        android:id="@+id/komponenJudul"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/komponenKotak"
+        app:srcCompat="@drawable/kotakborder" />
+
+    <ImageView
+        android:id="@+id/komponenGaris"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/komponenJudul"
+        app:srcCompat="@drawable/stroke" />
+
+    <Button
+        android:id="@+id/trizLearning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/trizlearning"
+        app:backgroundTint="#0496FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/komponenGaris" />
+
+    <Button
+        android:id="@+id/buttonKontradiksiM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/usecontradiction"
+        app:backgroundTint="#0496FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trizLearning" />
+
+    <TextView
+        android:id="@+id/trizHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/monbaiti_regular"
+        android:text="TRIZ"
+        android:textColor="#000000"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/komponenJudul"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/komponenJudul"
+        app:layout_constraintTop_toTopOf="@+id/komponenJudul" />
+
+    <TextView
+        android:id="@+id/forHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/monbaiti_regular"
+        android:text="for"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/komponenJudul"
+        app:layout_constraintStart_toStartOf="@+id/komponenJudul"
+        app:layout_constraintTop_toBottomOf="@+id/trizHome" />
+
+    <TextView
+        android:id="@+id/bamHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Business and Management"
+        android:fontFamily="@font/monbaiti_regular"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/komponenJudul"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/komponenJudul"
+        app:layout_constraintTop_toBottomOf="@+id/forHome" />
+
+
+    <Button
+        android:id="@+id/ind"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="35dp"
+        android:padding="1dp"
+        android:text="IND"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:backgroundTint="#EC2108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonKontradiksiM" />
+
+    <Button
+        android:id="@+id/eng"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:padding="1dp"
+        android:text="ENG"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:backgroundTint="#004EB7"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/buttonKontradiksiM" />
+
+    <ImageView
+        android:id="@+id/garisbahasa"
+        android:layout_width="1dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/eng"
+        app:layout_constraintStart_toEndOf="@+id/ind"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKontradiksiM"
+        app:srcCompat="@color/black"
+        tools:srcCompat="@color/black" />
+
+    <TextView
+        android:id="@+id/chooselanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/chooselanguage"
+        android:textSize="8dp"
+        android:textStyle="bold"
+        android:textColor="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eng" />
+
+    <ImageView
+        android:id="@+id/roundhome1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooselanguage"
+        app:srcCompat="@drawable/round" />
+
+    <ImageView
+        android:id="@+id/roundhome2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooselanguage"
+        app:srcCompat="@drawable/round" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

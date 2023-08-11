@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_param"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".classParameterNew.ParameterActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintId"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:id="@+id/menu_param"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:src="@drawable/ic_hambergermenu2"
+                    android:background="@null"/>
+
+                <TextView
+                    android:id="@+id/titleParameter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingHorizontal="10dp"
+                    android:fontFamily="@font/tajawalextrabold"
+                    android:text="@string/parameterTitle"
+                    android:textColor="@color/secondary"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/menu_param" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/constraintId"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_centerInParent="true"
+                android:foregroundGravity="center"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/secondary">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginVertical="30dp">
+
+                <ImageView
+                    android:id="@+id/illust"
+                    android:src="@drawable/illutriz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_below="@id/illust">
+
+                        <TextView
+                            android:id="@+id/descPrins"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_below="@id/illust"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/tajawalregular"
+                            android:text="@string/parameterDesc"
+                            android:textAlignment="center"
+                            android:textColor="@color/fourth"
+                            android:textSize="16sp" />
+                    </ScrollView>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <include
+            layout="@layout/parameter_sheet"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_nav"
+        android:layout_gravity="end"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>
