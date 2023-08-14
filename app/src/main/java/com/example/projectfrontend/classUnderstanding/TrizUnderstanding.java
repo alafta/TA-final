@@ -78,7 +78,6 @@ public class TrizUnderstanding extends AppCompatActivity implements RecyclerInte
                     case R.id.nav_home:
                         Intent home = new Intent(TrizUnderstanding.this, Home2Activity.class);
                         startActivity(home);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_undr:
                         drawerLayout.closeDrawer(R.id.nav_drawer);
@@ -86,27 +85,22 @@ public class TrizUnderstanding extends AppCompatActivity implements RecyclerInte
                     case R.id.nav_what:
                         Intent intent = new Intent(TrizUnderstanding.this, TrizActivity.class);
                         startActivity(intent);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_bussi:
                         Intent bussi = new Intent(TrizUnderstanding.this, BamActivity.class);
                         startActivity(bussi);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_param:
                         Intent param = new Intent(TrizUnderstanding.this, ParameterActivity.class);
                         startActivity(param);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_princ:
                         Intent prince = new Intent(TrizUnderstanding.this, PrinciplesActivity.class);
                         startActivity(prince);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_cont:
                         Intent matrix = new Intent(TrizUnderstanding.this, ContramatrixActivity.class);
                         startActivity(matrix);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
 //                    case R.id.nav_languageEn:
 //                        LocaleManager.setLocale(context, "en"); // English

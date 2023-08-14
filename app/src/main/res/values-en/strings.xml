@@ -33,6 +33,10 @@
     <string name="menu_name">Navigation Drawer</string>
     <string name="nav_open">Open Navigation Drawer</string>
     <string name="nav_close">Close Navigation Drawer</string>
+    <string name="howcan">How can it Works</string>
+    <string name="under">Understanding Page</string>
+    <string name="changeLang">Change Language</string>
+
 
     //what's triz
     <string name="trizTitle">Teoriya Resheniya Izobretatelskikh Zadatch (TRIZ)</string>
@@ -75,7 +79,13 @@
     <string name="contmatDesc2">Based on the 39 parameter systems, the contradiction matrix records 4 principal solutions for each type of problem in the form of a 39x39 table. The contradiction matrix will identify to provide solution recommendations based on 40 solution principals that have the potential to solve existing problems according to a predetermined parameter system. The contradiction matrix is used as the core in the database in this application.</string>
     <string name="contuseDesc1">The expression of technical contradiction is in the form of: if the manipulative variable changes, the response variable #1 increases, but the response variable #2 worsens. Example: If more incentives are given to employees, then employee retention increases but this will complicate the company compensation and benefits operations:</string>
     <string name="contuseDesc2">Based on the predetermined parameters, the recommended inventive solution principles are as follows: (2), (35), (22), (26)</string>
-    <string name="caseStudy">Case Study</string>
+    <string name="caseStudynew">Case Study</string>
+    <string name="howToUse">How to Use</string>
+
+    //halaman Case
+    <string name="case1">If employee productivity doubled, then company will be able to meet customer demand but employee health worsen</string>
+    <string name="case2">If manager is aggresive, then responsibility and number of project assigned increases but subordinates receive fewer recognitions and acknowledgments (due to limited manager bandwith)</string>
+
 
 
     //komponen umum

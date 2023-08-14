@@ -55,7 +55,7 @@
                 android:layout_marginLeft="20dp"
                 android:fontFamily="@font/tajawalbold"
                 android:gravity="center_vertical"
-                android:text="Case Study"
+                android:text="@string/caseStudynew"
                 android:textSize="11sp"
                 android:textColor="@color/secondary" />
 

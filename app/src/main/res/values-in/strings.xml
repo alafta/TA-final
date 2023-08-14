@@ -34,6 +34,9 @@
     <string name="menu_name">Menu Navigasi</string>
     <string name="nav_open">Buka Navigasi</string>
     <string name="nav_close">Tutup Navigasi</string>
+    <string name="howcan">Bagaimana Cara Kerja</string>
+    <string name="under">Halaman Understanding</string>
+    <string name="changeLang">Ganti Bahasa</string>
 
     //what's triz
     <string name="trizTitle">Teoriya Resheniya Izobretatelskikh Zadatch (TRIZ)</string>
@@ -65,7 +68,13 @@
     <string name="contmatDesc2">Berdasarkan 39 sistem parameter tersebut, matriks kontradiksi mencatat 4 solusi utama untuk setiap jenis masalah dalam bentuk tabel 39x39. Matriks kontradiksi akan mengidentifikasi untuk memberikan rekomendasi solusi berdasarkan 40 prinsip solusi yang berpotensi untuk menyelesaikan masalah yang ada sesuai dengan sistem parameter yang telah ditentukan. Matriks kontradiksi tersebut digunakan sebagai inti dalam basis data pada aplikasi ini.</string>
     <string name="contuseDesc1">Ekspresi dari kontradiksi teknikal adalah dalam bentuk: jika variabel manipulatif berubah, variabel respons #1 meningkat, tetapi variabel respons #2 memburuk. Contoh: Jika lebih banyak insentif diberikan kepada karyawan, maka retensi karyawan akan meningkat, namun hal ini akan mempersulit operasi kompensasi dan tunjangan perusahaan:</string>
     <string name="contuseDesc2">Berdasarkan parameter yang telah ditentukan, prinsip-prinsip solusi inventif yang direkomendasikan adalah sebagai berikut: (2), (35), (22), (26)</string>
-    <string name="caseStudy">Studi Kasus</string>
+    <string name="caseStudynew">Studi Kasus</string>
+    <string name="howToUse">Cara Penggunaan</string>
+
+    //halaman Case
+    <string name="case1">Jika produktivitas karyawan meningkat dua kali lipat, maka perusahaan akan dapat memenuhi permintaan pelanggan tetapi kesehatan karyawan memburuk</string>
+    <string name="case2">Jika manajer agresif, maka tanggung jawab dan jumlah proyek yang ditugaskan meningkat tetapi bawahan menerima lebih sedikit pengakuan dan ucapan terimakasih (karena bandwidth manajer terbatas)</string>
+
 
     //Business and Management
     <string name="bamTitle">Bagaimana Cara Kerja pada Bisnis dan Manajemen</string>

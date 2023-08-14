@@ -9,7 +9,7 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home"
-            android:title="Home"/>
+            android:title="@string/home2Title"/>
 <!--        <item-->
 <!--            android:id="@+id/nav_about"-->
 <!--            android:icon="@drawable/ic_infocircle"-->
@@ -18,43 +18,43 @@
         <item
             android:id="@+id/nav_undr"
             android:icon="@drawable/ic_underst"
-            android:title="TRIZ Understanding"/>
+            android:title="@string/understandingTitle"/>
     </group>
 
     <group
         android:checkableBehavior="single">
     <item
-        android:title="Understanding Pages">
+        android:title="@string/under">
 
         <menu>
             <item
                 android:id="@+id/nav_what"
                 android:icon="@drawable/ic_descr"
-                android:title="What is TRIZ"
+                android:title="@string/whatIs"
                 />
 
             <item
                 android:id="@+id/nav_bussi"
                 android:icon="@drawable/ic_manage"
-                android:title="How can it Works"
+                android:title="@string/howcan"
                 />
 
             <item
                 android:id="@+id/nav_param"
                 android:icon="@drawable/ic_params"
-                android:title="Parameter"
+                android:title="@string/systemParameter"
                 />
 
             <item
                 android:id="@+id/nav_princ"
                 android:icon="@drawable/ic_principles"
-                android:title="Principles"
+                android:title="@string/inventivePrinciples"
                 />
 
             <item
                 android:id="@+id/nav_cont"
                 android:icon="@drawable/ic_contrac"
-                android:title="Contradiction Matrix"
+                android:title="@string/contradictionMatrix"
                 />
         </menu>
     </item>
@@ -63,7 +63,7 @@
     <group
         android:checkableBehavior="single">
         <item
-            android:title="Change Language">
+            android:title="@string/changeLang">
             <menu>
                 <item
                     android:id="@+id/nav_languageEn"

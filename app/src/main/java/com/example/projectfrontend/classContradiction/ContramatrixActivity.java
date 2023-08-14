@@ -14,6 +14,8 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.projectfrontend.CaseActivity;
+import com.example.projectfrontend.CaseActivity2;
 import com.example.projectfrontend.HomeActivityNew.Home2Activity;
 import com.example.projectfrontend.R;
 import com.example.projectfrontend.TrizActivity;
@@ -66,7 +68,8 @@ public class ContramatrixActivity extends AppCompatActivity implements contRecyc
         for (int i = 0; i < CaseItem.number.length; i++) {
             data.add(new CaseItemModel(
                     CaseItem.number[i],
-                    CaseItem.caseStudy[i]
+                    CaseItem.caseStudy[i],
+                    CaseItem.type[i]
             ));
         }
 
@@ -90,32 +93,26 @@ public class ContramatrixActivity extends AppCompatActivity implements contRecyc
                     case R.id.nav_home:
                         Intent home = new Intent(ContramatrixActivity.this, Home2Activity.class);
                         startActivity(home);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_undr:
                         Intent under = new Intent(ContramatrixActivity.this, TrizUnderstanding.class);
                         startActivity(under);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_what:
                         Intent intent = new Intent(ContramatrixActivity.this, TrizActivity.class);
                         startActivity(intent);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_bussi:
                         Intent bussi = new Intent(ContramatrixActivity.this, BamActivity.class);
                         startActivity(bussi);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_param:
                         Intent param = new Intent(ContramatrixActivity.this, ParameterActivity.class);
                         startActivity(param);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_princ:
                         Intent prince = new Intent(ContramatrixActivity.this, PrinciplesActivity.class);
                         startActivity(prince);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_cont:
                         drawerLayout.closeDrawer(R.id.nav_drawer);
@@ -136,6 +133,17 @@ public class ContramatrixActivity extends AppCompatActivity implements contRecyc
 
     @Override
     public void onItemClick(int position, CaseItemModel model) {
+
+        switch (model.type) {
+            case CASE1:
+                Intent case1 = new Intent(ContramatrixActivity.this, CaseActivity.class);
+                startActivity(case1);
+                break;
+            case CASE2:
+                Intent case2 = new Intent(ContramatrixActivity.this, CaseActivity2.class);
+                startActivity(case2);
+                break;
+        }
 
     }
 }

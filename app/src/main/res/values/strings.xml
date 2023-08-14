@@ -33,6 +33,10 @@
     <string name="menu_name">Navigation Drawer</string>
     <string name="nav_open">Open Navigation Drawer</string>
     <string name="nav_close">Close Navigation Drawer</string>
+    <string name="howcan">How can it Works</string>
+    <string name="under">Understanding Page</string>
+    <string name="changeLang">Change Language</string>
+
 
     //what's triz
     <string name="trizTitle">Teoriya Resheniya Izobretatelskikh Zadatch (TRIZ)</string>
@@ -75,7 +79,12 @@
     <string name="contmatDesc2">Based on the 39 parameter systems, the contradiction matrix records 4 principal solutions for each type of problem in the form of a 39x39 table. The contradiction matrix will identify to provide solution recommendations based on 40 solution principals that have the potential to solve existing problems according to a predetermined parameter system. The contradiction matrix is used as the core in the database in this application.</string>
     <string name="contuseDesc1">The expression of technical contradiction is in the form of: if the manipulative variable changes, the response variable #1 increases, but the response variable #2 worsens. Example: If more incentives are given to employees, then employee retention increases but this will complicate the company compensation and benefits operations:</string>
     <string name="contuseDesc2">Based on the predetermined parameters, the recommended inventive solution principles are as follows: (2), (35), (22), (26)</string>
-    <string name="caseStudy">Case Study</string>
+    <string name="caseStudynew">Case Study</string>
+    <string name="howToUse">How to Use</string>
+
+    //halaman Case
+    <string name="case1">If employee productivity doubled, then company will be able to meet customer demand but employee health worsen</string>
+    <string name="case2">If manager is aggresive, then responsibility and number of project assigned increases but subordinates receive fewer recognitions and acknowledgments (due to limited manager bandwith)</string>
 
 
     //komponen umum
@@ -134,6 +143,7 @@
     <string name="penjelasantrizforbisnis_ind">Dalam upaya untuk menghasilkan pengenalan produk baru adalah proses inovasi radikal, Jelas prosesnya tidak efisien sama sekali. Karena sumber daya yang sangat terbatas akan menyebabkan biaya yang sangat mahal dalam mengembangan produk baru ditambah dengan risiko keberhasilan yang tinggi. Skenario kasus terburuk adalah ketika Anda menemukan bahwa produk tersebut tidak diterima di pasar. Perlu ada cara yang lebih baik dari sekedar pendekatan coba-coba brainstorming untuk menghasilkan ide. Kita perlu menggunakan alat terstruktur dan sistematis seperti TRIZ untuk mengurangi kuantitas upaya, sekaligus meningkatkan kualitas ide. Ini mengurangi waktu dan sumber daya untuk validasi dan kesuksesan produk baru. Para pelaku bisnis yang dapat mengadopsi metode ini dan meningkatkan proses inovasi mereka secara efisien dapat memiliki peluang yang tinggi untuk bersaing dengan pesaing.</string>
     <string name="penjelasantrizformanajemen_ind">Peran dalam manajemen biasanya melibatkan memimpin dan mengoordinasikan sekelompok orang untuk mencapai serangkaian tujuan atau sasaran. Dalam proses mencapai tujuan atau sasaran ini, kelompok akan sangat sering perlu menangani berbagai masalah sederhana hingga kompleks. Dalam kebanyakan kasus, masalah manajemen bersifat kompleks dan disebabkan oleh berbagai akar penyebab. Akar penyebab tidak mudah diidentifikasi dan saling terkait di mana perbaikan di satu area dapat mengarah pada perbaikan tetapi juga menimbulkan masalah yang memburuk di area yang berbeda. Ini adalah kontradiksi yang sering diabaikan. Masalah dengan banyak akar penyebab tidak dapat diselesaikan melalui metode konvensional. akan sangat penting untuk melengkapi tim manajemen dengan teknik pemecahan masalah yang canggih seperti TRIZ untuk menyelesaikan masalah yang kompleks. Telah terbukti bahwa metodologi dan alat teknis dapat dipinjam dan digunakan secara efektif untuk membantu di bidang manajemen. Tim manajemen yang dapat memecahkan masalah yang kompleks dan mampu mengatasi kompleksitas yang meningkat akan memiliki keuntungan tambahan di masa depan yang terglobalisasi.</string>
     <string name="penjelasantrizforbam_ind">Apakah anda siap menghadapi tantangan baru untuk mengembangkan bisnis anda? Apakah anda mampu mengembangkan ide-ide terobosan baru yang dapat memberi anda keunggulan terhadap persaingan? TRIZ dapat digunakan untuk membantu dalam hal pengembangan ide inovasi terhadap strategi bisnis secara efektif dan efisien. </string>
+
 
     //halaman 39 parameter
     <string name="title39parameters"> 39 System Parameters</string>

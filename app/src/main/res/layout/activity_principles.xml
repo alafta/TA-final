@@ -8,7 +8,7 @@
     android:background="@drawable/gradient_background"
     tools:context=".classPrinciple.PrinciplesActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <RelativeLayout
@@ -48,31 +48,37 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/viewPager"
+                android:id="@+id/card"
                 android:layout_width="match_parent"
-                android:layout_height="500dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/constraintId"
-                android:layout_marginTop="10dp"
-                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="40dp"
+                android:layout_centerInParent="true"
                 android:foregroundGravity="center"
                 app:cardCornerRadius="20dp"
                 app:cardBackgroundColor="@color/secondary">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_margin="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="30dp">
 
                     <ImageView
                         android:id="@+id/illust"
-                        android:src="@drawable/illutriz"
                         android:layout_width="match_parent"
-                        android:layout_height="150dp" />
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/illutriz" />
 
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_below="@id/illust">
                     <TextView
                         android:id="@+id/descPrins"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="250dp"
                         android:layout_below="@id/illust"
                         android:layout_marginTop="20dp"
                         android:text="@string/princplesDesc"
@@ -80,14 +86,15 @@
                         android:fontFamily="@font/tajawalregular"
                         android:textAlignment="center"
                         android:textColor="@color/fourth"
-                        android:layout_gravity="center_horizontal" />
-                </RelativeLayout>
+                        android:gravity="center_horizontal" />
+                    </ScrollView>
+            </RelativeLayout>
             </androidx.cardview.widget.CardView>
         </RelativeLayout>
 
         <include
             layout="@layout/principles_sheet"/>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"

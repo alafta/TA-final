@@ -196,32 +196,26 @@ public class Home2Activity extends AppCompatActivity implements RecyclerViewInte
                     case R.id.nav_undr:
                         Intent under = new Intent(Home2Activity.this, TrizUnderstanding.class);
                         startActivity(under);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_what:
                         Intent intent = new Intent(Home2Activity.this, TrizActivity.class);
                         startActivity(intent);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_bussi:
                         Intent bussi = new Intent(Home2Activity.this, BamActivity.class);
                         startActivity(bussi);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_param:
                         Intent param = new Intent(Home2Activity.this, ParameterActivity.class);
                         startActivity(param);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_princ:
                         Intent prince = new Intent(Home2Activity.this, PrinciplesActivity.class);
                         startActivity(prince);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_cont:
                         Intent matrix = new Intent(Home2Activity.this, ContramatrixActivity.class);
                         startActivity(matrix);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
 //                    case R.id.nav_languageEn:
 //                        LocaleManager.setLocale(context, "en"); // English

@@ -34,7 +34,7 @@
                     android:layout_marginVertical="10dp"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/tajawalregular"
-                    android:text="@string/reference"
+                    android:text="@string/howToUse"
                     android:textColor="@color/secondary"
                     android:textSize="28dp"
                     android:textStyle="bold" />
@@ -99,7 +99,7 @@
                         android:layout_marginTop="30dp"
                         android:fontFamily="@font/tajawalregular"
                         android:gravity="center_horizontal"
-                        android:text="@string/reference"
+                        android:text="@string/caseStudynew"
                         android:textAlignment="center"
                         android:textColor="@color/secondary"
                         android:textSize="28dp"

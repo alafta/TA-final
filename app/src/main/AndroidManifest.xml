@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectFrontEnd">
-
+        <activity
+            android:name=".CaseActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".CaseActivity"
+            android:exported="false" />
         <activity
             android:name=".classBAM.BamActivity"
             android:exported="false" />
@@ -19,14 +24,15 @@
         <activity
             android:name=".classPrinciple.PrinciplesActivity"
             android:exported="false" />
-        <activity android:name=".classPrinciple.penjelasanprinsipalActivity2"
-            android:exported="false"/>
+        <activity
+            android:name=".classPrinciple.penjelasanprinsipalActivity2"
+            android:exported="false" />
         <activity
             android:name=".classParameterNew.ParameterActivity"
             android:exported="false" />
         <activity
             android:name=".classParameterNew.penjelasanparameterActivity2"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".TrizActivity"
             android:exported="false" />

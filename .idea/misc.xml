@@ -8,22 +8,34 @@
         <entry key="..\:/TA-main/app/src/main/res/drawable/bottom_sheet.xml" value="0.21666666666666667" />
         <entry key="..\:/TA-main/app/src/main/res/drawable/buletnomor.xml" value="0.1" />
         <entry key="..\:/TA-main/app/src/main/res/drawable/case_bg.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/drawable/gradient_background.xml" value="0.2175925925925926" />
+        <entry key="..\:/TA-main/app/src/main/res/drawable/gradient_background2.xml" value="0.2175925925925926" />
+        <entry key="..\:/TA-main/app/src/main/res/drawable/gradient_background3.xml" value="0.2175925925925926" />
+        <entry key="..\:/TA-main/app/src/main/res/drawable/round.xml" value="0.2175925925925926" />
         <entry key="..\:/TA-main/app/src/main/res/layout-v21/activity_bam.xml" value="0.1" />
         <entry key="..\:/TA-main/app/src/main/res/layout-v21/activity_contramatrix.xml" value="0.1" />
         <entry key="..\:/TA-main/app/src/main/res/layout-v21/activity_parameter.xml" value="0.1" />
         <entry key="..\:/TA-main/app/src/main/res/layout-v21/bam_item.xml" value="0.12604166666666666" />
         <entry key="..\:/TA-main/app/src/main/res/layout-v21/case_item.xml" value="0.336" />
         <entry key="..\:/TA-main/app/src/main/res/layout-v21/cont_sheet.xml" value="0.17923823749066467" />
-        <entry key="..\:/TA-main/app/src/main/res/layout-v21/parameter_sheet.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/list_parameter.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA-main/app/src/main/res/layout-v21/parameter_sheet.xml" value="0.16" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/activity_case.xml" value="0.3127035830618892" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/activity_case2.xml" value="0.2" />
         <entry key="..\:/TA-main/app/src/main/res/layout/activity_home2.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/activity_intro.xml" value="0.144" />
         <entry key="..\:/TA-main/app/src/main/res/layout/activity_nav.xml" value="0.1" />
         <entry key="..\:/TA-main/app/src/main/res/layout/activity_principles.xml" value="0.1" />
         <entry key="..\:/TA-main/app/src/main/res/layout/activity_triz.xml" value="0.12001811594202899" />
         <entry key="..\:/TA-main/app/src/main/res/layout/activity_triz_understanding.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/bottom_sheet.xml" value="0.12047101449275362" />
         <entry key="..\:/TA-main/app/src/main/res/layout/fragment_cm1.xml" value="0.264" />
         <entry key="..\:/TA-main/app/src/main/res/layout/halaman_kontradiksi.xml" value="0.12158054711246201" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/halaman_penjelasancs.xml" value="0.264" />
         <entry key="..\:/TA-main/app/src/main/res/layout/list_principles.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/onboarding_item.xml" value="0.12158054711246201" />
         <entry key="..\:/TA-main/app/src/main/res/layout/principles_desc_list.xml" value="0.1" />
+        <entry key="..\:/TA-main/app/src/main/res/layout/principles_sheet.xml" value="0.176" />
         <entry key="..\:/TA-main/app/src/main/res/menu/nav_menu.xml" value="0.4" />
         <entry key="..\:/TA/TA/app/src/main/res/drawable/arrow.xml" value="0.1515625" />
         <entry key="..\:/TA/TA/app/src/main/res/drawable/ic_baseline_maximize_24.xml" value="0.1515625" />

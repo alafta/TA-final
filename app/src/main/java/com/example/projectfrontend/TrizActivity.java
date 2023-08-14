@@ -113,12 +113,10 @@ public class TrizActivity extends AppCompatActivity   {
                     case R.id.nav_home:
                         Intent home = new Intent(TrizActivity.this, Home2Activity.class);
                         startActivity(home);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_undr:
                         Intent intent = new Intent(TrizActivity.this, TrizUnderstanding.class);
                         startActivity(intent);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_what:
                         drawerLayout.closeDrawer(R.id.nav_drawer);
@@ -126,22 +124,18 @@ public class TrizActivity extends AppCompatActivity   {
                     case R.id.nav_bussi:
                         Intent bussi = new Intent(TrizActivity.this, BamActivity.class);
                         startActivity(bussi);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_param:
                         Intent param = new Intent(TrizActivity.this, ParameterActivity.class);
                         startActivity(param);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_princ:
                         Intent prince = new Intent(TrizActivity.this, PrinciplesActivity.class);
                         startActivity(prince);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
                     case R.id.nav_cont:
                         Intent matrix = new Intent(TrizActivity.this, ContramatrixActivity.class);
                         startActivity(matrix);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
                         break;
 //                    case R.id.nav_languageEn:
 //                        LocaleManager.setLocale(context, "en"); // English
