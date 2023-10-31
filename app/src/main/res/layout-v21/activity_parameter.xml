@@ -41,7 +41,7 @@
                     android:fontFamily="@font/tajawalextrabold"
                     android:text="@string/parameterTitle"
                     android:textColor="@color/secondary"
-                    android:textSize="32sp"
+                    android:textSize="30sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/menu_param" />
@@ -67,9 +67,9 @@
 
                 <ImageView
                     android:id="@+id/illust"
-                    android:src="@drawable/illutriz"
+                    android:src="@drawable/params"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="200dp"/>
 
                     <ScrollView
                         android:layout_width="match_parent"

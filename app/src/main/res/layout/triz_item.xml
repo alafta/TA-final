@@ -24,19 +24,26 @@
                 android:src="@drawable/illutriz"
                 android:layout_width="match_parent"
                 android:layout_height="150dp" />
-            
-            <TextView
-                android:id="@+id/textUnd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_below="@id/illu"
-                android:layout_marginTop="20dp"
-                android:text="@string/page1"
-                android:textSize="16sp"
-                android:fontFamily="@font/tajawalregular"
-                android:textAlignment="center"
-                android:textColor="@color/fourth"
-                android:layout_gravity="center_horizontal" />
+                android:layout_marginVertical="20dp">
+
+                <TextView
+                    android:id="@+id/textUnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="15dp"
+                    android:fontFamily="@font/tajawalregular"
+                    android:text="@string/page1"
+                    android:textAlignment="center"
+                    android:textColor="@color/fourth"
+                    android:textSize="16sp" />
+
+            </ScrollView>
 
 
         </RelativeLayout>

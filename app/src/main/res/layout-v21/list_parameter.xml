@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@android:color/transparent"
-    android:paddingVertical="10dp">
+    android:paddingVertical="5dp">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card"
@@ -14,55 +14,59 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginLeft="30dp"
+        android:layout_marginHorizontal="10dp"
         android:layout_marginTop="6dp"
-        android:layout_marginRight="30dp"
         app:cardCornerRadius="10dp"
         android:background="@android:color/transparent"
         android:padding="25dp">
 
-        <RelativeLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_param">
             <ImageView
                 android:id="@+id/buletp1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="14dp"
-                android:layout_marginTop="12dp"
-                android:background="@drawable/round"/>
+                android:layout_marginLeft="14dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/round"
+                android:adjustViewBounds="true"/>
+
             <TextView
                 android:id="@+id/txtparam"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/buletp1"
-                android:layout_marginTop="15dp"
+                app:layout_constraintStart_toEndOf="@id/buletp1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginVertical="10dp"
                 android:layout_marginBottom="10dp"
-                android:layout_marginHorizontal="13dp"
-                android:paddingHorizontal="4dp"
                 android:fontFamily="@font/montserratregular"
-                android:textSize="12sp"
-                android:gravity="center_vertical"
+                android:foregroundGravity="bottom"
+                android:gravity="start"
+                android:paddingHorizontal="4dp"
                 android:text="@string/p1text"
                 android:textColor="@color/text"
-                android:foregroundGravity="bottom"/>
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/bgnom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@id/buletp1"
-                android:layout_alignTop="@id/buletp1"
-                android:layout_alignStart="@id/buletp1"
-                android:layout_alignEnd="@id/buletp1"
-                android:layout_alignRight="@+id/buletp1"
-                android:layout_alignBottom="@id/buletp1"
+                app:layout_constraintStart_toStartOf="@id/buletp1"
+                app:layout_constraintEnd_toEndOf="@id/buletp1"
+                app:layout_constraintTop_toTopOf="@id/buletp1"
+                app:layout_constraintBottom_toBottomOf="@id/buletp1"
                 android:fontFamily="@font/montserratregular"
                 android:gravity="center"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
-        </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 

@@ -1,6 +1,10 @@
 package com.example.projectfrontend.classUnderstanding;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -13,6 +17,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.projectfrontend.BaseActivity;
 import com.example.projectfrontend.HomeActivityNew.Home2Activity;
 import com.example.projectfrontend.TrizActivity;
 import com.example.projectfrontend.classBAM.BamActivity;
@@ -24,8 +29,9 @@ import com.example.projectfrontend.TrizActivity;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
-public class TrizUnderstanding extends AppCompatActivity implements RecyclerInterface {
+public class TrizUnderstanding extends BaseActivity implements BaseActivity.OnLanguageChangedListener, RecyclerInterface {
 
     RecyclerView recyclerView;
     AdapterUnderstanding adapterUnderstanding;
@@ -78,43 +84,73 @@ public class TrizUnderstanding extends AppCompatActivity implements RecyclerInte
                     case R.id.nav_home:
                         Intent home = new Intent(TrizUnderstanding.this, Home2Activity.class);
                         startActivity(home);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_undr:
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_what:
                         Intent intent = new Intent(TrizUnderstanding.this, TrizActivity.class);
                         startActivity(intent);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_bussi:
                         Intent bussi = new Intent(TrizUnderstanding.this, BamActivity.class);
                         startActivity(bussi);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_param:
                         Intent param = new Intent(TrizUnderstanding.this, ParameterActivity.class);
                         startActivity(param);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_princ:
                         Intent prince = new Intent(TrizUnderstanding.this, PrinciplesActivity.class);
                         startActivity(prince);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_cont:
                         Intent matrix = new Intent(TrizUnderstanding.this, ContramatrixActivity.class);
                         startActivity(matrix);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
-//                    case R.id.nav_languageEn:
-//                        LocaleManager.setLocale(context, "en"); // English
-//                        recreate(); // Refresh the activity
-//                        return true;
-//                    case R.id.nav_languageIn:
-//                        LocaleManager.setLocale(context, "in"); // English
-//                        recreate(); // Refresh the activity
-//                        return true;
+                    case R.id.nav_languageEn:
+                        setLocale("en");
+                        recreate(); // Refresh the activity
+                        drawerLayout.closeDrawer(Gravity.END);
+                        break;
+                    case R.id.nav_languageIn:
+                        setLocale("in");
+                        recreate();
+                        drawerLayout.closeDrawer(Gravity.END);
+                        break;
                 }
                 return true;
             }
         });
+    }
 
+    public void setLocale(String languageCode) {
+        // Store the selected language in a shared preference
+        SharedPreferences preferences = getSharedPreferences("MyAppPreferences", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("language", languageCode);
+        editor.apply();
+
+        // Notify child activities that the language has changed
+        if (languageChangedListener != null) {
+            languageChangedListener.onLanguageChanged();
+        }
+        // Send a broadcast to notify all activities about the language change
+        Intent intent = new Intent("LanguageChanged");
+        sendBroadcast(intent);
+
+        // Update the application's locale
+        Resources resources = getResources();
+        Configuration configuration = resources.getConfiguration();
+        Locale locale = new Locale(languageCode);
+        configuration.setLocale(locale);
+        resources.updateConfiguration(configuration, resources.getDisplayMetrics());
     }
 
     @Override
@@ -148,4 +184,8 @@ public class TrizUnderstanding extends AppCompatActivity implements RecyclerInte
     }
 
 
+    @Override
+    public void onLanguageChanged() {
+        recreate();
+    }
 }

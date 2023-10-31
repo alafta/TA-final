@@ -65,6 +65,7 @@
                     />
 
                 <ImageButton
+                    android:onClick="ShowPopup"
                     android:id="@+id/information"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -93,11 +94,12 @@
                 <Spinner
                     android:id="@+id/spinnerNew1"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="wrap_content"
                     app:layout_constraintTop_toBottomOf="@id/setImproving"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:layout_marginTop="8dp"
+                    android:paddingHorizontal="5dp"
                     android:background="@drawable/spinner"
                     />
 
@@ -119,7 +121,7 @@
                 <Spinner
                     android:id="@+id/spinnerNew2"
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
+                    android:layout_height="wrap_content"
                     app:layout_constraintTop_toBottomOf="@id/setWorsening"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -169,7 +171,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginHorizontal="16dp"
                     android:text="@string/subPrinciples"
-                    android:textSize="11sp"
+                    android:textSize="14sp"
                     android:fontFamily="@font/montserratregular"
                     android:textColor="@color/secondary_2"
                     />
@@ -181,7 +183,7 @@
                     android:fontFamily="@font/montserratsemibold"
                     android:gravity="center"
                     android:text="Solution not available"
-                    android:textSize="10dp"
+                    android:textSize="14dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -209,7 +211,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginVertical="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
             android:layout_marginHorizontal="30dp"
             android:text="@string/buttonTriz"
             android:textSize="14sp"

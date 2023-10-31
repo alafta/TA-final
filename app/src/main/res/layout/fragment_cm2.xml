@@ -85,7 +85,7 @@
             android:layout_below="@id/isi_penjelasanSolusi"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:backgroundTint="#0496FF"
+            android:backgroundTint="@color/secondary"
             android:fontFamily="@font/poppins_semib"
             android:text="Ilustrasi"
             android:textAllCaps="false"

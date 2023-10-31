@@ -41,7 +41,7 @@
                     android:fontFamily="@font/tajawalextrabold"
                     android:text="@string/principlesTitle"
                     android:textColor="@color/secondary"
-                    android:textSize="32sp"
+                    android:textSize="30sp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/menu_princs" />
@@ -68,8 +68,8 @@
                     <ImageView
                         android:id="@+id/illust"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/illutriz" />
+                        android:layout_height="200dp"
+                        android:src="@drawable/princ" />
 
                     <ScrollView
                         android:layout_width="match_parent"

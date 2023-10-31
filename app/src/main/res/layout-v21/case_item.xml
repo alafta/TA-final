@@ -56,8 +56,8 @@
                 android:fontFamily="@font/tajawalbold"
                 android:gravity="center_vertical"
                 android:text="@string/caseStudynew"
-                android:textSize="11sp"
-                android:textColor="@color/secondary" />
+                android:textColor="@color/secondary"
+                android:textSize="11sp" />
 
         </RelativeLayout>
 

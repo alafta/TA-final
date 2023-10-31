@@ -2,10 +2,12 @@
 <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_case2"
+    tools:openDrawer="right"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_background2"
-    tools:context=".CaseActivity">
+    android:background="@drawable/gradient_background3"
+    tools:context=".CaseActivity2">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -16,9 +18,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="75dp"
+            android:layout_marginTop="50dp"
             android:fontFamily="@font/tajawalextrabold"
-            android:text="@string/home2Title"
+            android:text="@string/titleCase2"
             android:textColor="@color/secondary"
             android:textSize="36sp"
             android:textStyle="bold"
@@ -26,7 +28,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/menu_button"
+            android:id="@+id/menuCase2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -40,90 +42,273 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardChoose"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="30dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="30dp"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="350dp"
+            android:layout_margin="30dp"
+            app:layout_constraintTop_toBottomOf="@id/cardCase"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardCase">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:padding="20dp">
+                android:padding="20dp"
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/setContradiction"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserratbold"
-                    android:text="@string/matrix2Set"
-                    android:textColor="@color/secondary_2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="@string/solve"
                     android:textSize="14sp"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:fontFamily="@font/montserratbold"
+                    android:textColor="@color/secondary_2"/>
 
-                <TextView
-                    android:id="@+id/setImproving"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
-                    android:fontFamily="@font/montserratmedium"
-                    android:gravity="center"
-                    android:text="@string/matrix2Improving"
-                    android:textColor="@color/secondary_2"
-                    android:textSize="12sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/setContradiction" />
-
-                <Spinner
-                    android:id="@+id/spinnerNew1"
+                <ScrollView
                     android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:layout_marginTop="8dp"
-                    android:background="@drawable/spinner"
-                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintTop_toBottomOf="@id/setContradiction"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/setImproving" />
+                    android:layout_marginTop="15dp"
+                    android:paddingVertical="10dp"
+                    app:layout_constraintEnd_toEndOf="parent">
 
-                <TextView
-                    android:id="@+id/setWorsening"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
-                    android:fontFamily="@font/montserratmedium"
-                    android:gravity="center"
-                    android:text="@string/matrix2Worsening"
-                    android:textColor="@color/secondary_2"
-                    android:textSize="12sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/spinnerNew1" />
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingVertical="15dp">
 
-                <Spinner
-                    android:id="@+id/spinnerNew2"
-                    android:layout_width="match_parent"
-                    android:layout_height="35dp"
-                    android:layout_marginTop="8dp"
-                    android:background="@drawable/spinner"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/setWorsening" />
+                        <TextView
+                            android:id="@+id/setImproving"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:gravity="center"
+                            android:text="@string/improve1"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/montserratbold"
+                            android:textColor="@color/ijoo"/>
 
-                <Button
-                    android:id="@+id/buttonSubmit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="8dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/spinnerNew2" />
+                        <ImageView
+                            android:id="@+id/arrowImp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintStart_toStartOf="@id/setImproving"
+                            app:layout_constraintTop_toBottomOf="@id/setImproving"
+                            android:src="@drawable/arrow_penjelasan" />
+
+                        <TextView
+                            android:id="@+id/improvingParam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/setImproving"
+                            app:layout_constraintStart_toEndOf="@id/arrowImp"
+                            android:text="@string/improve4"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <ImageView
+                            android:id="@+id/arrowImp2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintStart_toStartOf="@id/improvingParam"
+                            app:layout_constraintTop_toBottomOf="@id/improvingParam"
+                            android:src="@drawable/arrow_penjelasan" />
+
+                        <TextView
+                            android:id="@+id/improvingParam2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/improvingParam"
+                            app:layout_constraintStart_toEndOf="@id/arrowImp2"
+                            android:text="@string/improve5"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <TextView
+                            android:id="@+id/setWorsening"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/improvingParam2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/worsening1"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/montserratbold"
+                            android:textColor="@color/abang"/>
+
+                        <ImageView
+                            android:id="@+id/arrowWors"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintStart_toStartOf="@id/setWorsening"
+                            app:layout_constraintTop_toBottomOf="@id/setWorsening"
+                            android:src="@drawable/arrow_penjelasan" />
+
+                        <TextView
+                            android:id="@+id/worseningParam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/setWorsening"
+                            app:layout_constraintStart_toEndOf="@id/arrowWors"
+                            android:text="@string/worsening4"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <ImageView
+                            android:id="@+id/arrowWors2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintStart_toStartOf="@id/worseningParam"
+                            app:layout_constraintTop_toBottomOf="@id/worseningParam"
+                            android:src="@drawable/arrow_penjelasan" />
+
+                        <TextView
+                            android:id="@+id/worseningParam2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/worseningParam"
+                            app:layout_constraintStart_toEndOf="@id/arrowWors2"
+                            android:text="@string/worsening5"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <TextView
+                            android:id="@+id/solution"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/montserratbold"
+                            android:gravity="center"
+                            android:text="@string/solution1"
+                            android:textColor="@color/text"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/worseningParam2"/>
+
+                        <TextView
+                            android:id="@+id/solution2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/solution"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/solution3"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <TextView
+                            android:id="@+id/principles1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/solution2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/principles5"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <TextView
+                            android:id="@+id/principles2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/principles1"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/principles3"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <TextView
+                            android:id="@+id/principles3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/principles2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/principles7"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <TextView
+                            android:id="@+id/principles4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/principles3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/principles8"
+                            android:textSize="12sp"
+                            android:paddingRight="5dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <TextView
+                            android:id="@+id/potential"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/montserratbold"
+                            android:gravity="center"
+                            android:text="@string/potential"
+                            android:textColor="@color/text"
+                            android:textSize="12sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/principles4"/>
+
+                        <TextView
+                            android:id="@+id/potential1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/potential"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/potential3"
+                            android:textSize="12sp"
+                            android:paddingHorizontal="10dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                        <TextView
+                            android:id="@+id/potential2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toBottomOf="@id/potential1"
+                            app:layout_constraintStart_toStartOf="parent"
+                            android:text="@string/potential4"
+                            android:textSize="12sp"
+                            android:paddingHorizontal="10dp"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/montserratmedium"
+                            android:textColor="@color/secondary_2"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </ScrollView>
+
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
@@ -131,18 +316,16 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cardCase"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginHorizontal="30dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="10dp"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="10dp"
-            app:layout_constraintBottom_toTopOf="@id/cardChoose"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/homeText"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/homeText">
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginHorizontal="30dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="16dp">
@@ -184,10 +367,11 @@
                     app:layout_constraintHorizontal_bias="0.497"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/textCase"
-                    app:layout_constraintVertical_bias="0.905" />
+                    app:layout_constraintVertical_bias="0.905"
+                    android:text="@string/solve"
+                    android:textSize="12sp"/>
 
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
 

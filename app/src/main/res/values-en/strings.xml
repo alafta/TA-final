@@ -1,24 +1,29 @@
 <resources>
-    <string name="app_name" translatable="false">TRIZ Business and Management</string>
+    <string name="app_name" translatable="false">TRIZ Business and Management V2</string>
     //halaman onboarding
     <string name="onboardingButton1">Next</string>
     <string name="onboardingButton2">Get Started</string>
     <string name="onboardingTitle1">About Apps</string>
     <string name="onboardingDesc1">This application is a problem-solving application that implements the TRIZ problem-solving method introduced by Genrikh Saulovich Altshuller in a mobile form.</string>
-    <string name="onboardingTitle2">Main Feature</string>
-    <string name="onboardingDesc2">The main feature of this application is the use of the contradiction matrix to find recommended solutions using the TRIZ method of problems that have contradictions. It is obtained based on the results of the parameters that want to be improved and the parameters that hinder.</string>
-    <string name="onboardingTitle3">For new Users</string>
-    <string name="onboardingDesc3">In addition to the use of matrix contradiction, this application also offers learning features for users who do not understand or know what TRIZ is and how to implement it.</string>
+    <string name="onboardingTitle2">Application Purpose</string>
+    <string name="onboardingDesc2">This application is a learning media for users to learn and understand the triz method as one of the problem solving methods. The main purpose of this application is to facilitate users in learning and understanding the TRIZ method. In addition, users can also use this application to apply the TRIZ method in their daily lives.</string>
+    <string name="onboardingTitle3">Main Feature</string>
+    <string name="onboardingDesc3">In this application there is a feature that implements the TRIZ contradiction matrix in solving contradictory problems. There are also a number of materials on the basics of the TRIZ method that can help users to learn and understand the TRIZ method. </string>
 
     //halaman home
     <string name="home2Title">Home</string>
     <string name="matrix2Set">Set the Contradiction</string>
-    <string name="matrix2Improving">Improving parameter</string>
-    <string name="matrix2Worsening">Worsening parameter</string>
+    <string name="matrix2Improving">Choose the Improving parameter</string>
+    <string name="matrix2Worsening">Choose the Worsening parameter</string>
     <string name="principles">Principles</string>
     <string name="subPrinciples">The TRIZ Matrix proposes the following Principles to solve the contradiction:</string>
     <string name="buttonTriz">Get to Know About TRIZ</string>
     <string name="chooseP">Choose the Parameter</string>
+    //information
+    <string name="infodesc">Description :</string>
+    <string name="info1">1. Select the improving parameter according to what you want.</string>
+    <string name="info2">2. Select the worsening parameter that contradicts your improving parameter.</string>
+    <string name="info3">3. Display the principles of the parameters you have selected.</string>
 
     //halaman understanding
     <string name="understandingTitle">TRIZ Understanding</string>
@@ -46,6 +51,7 @@
     <string name="page4">Therefore, Altshuller introduced the TRIZ method with 39 parameter systems and 40 Solution Principals which have been compressed from 40,000 existing patents.\n TRIZ is a philosophy of science and technology method with a systematic and structured way of thinking to find creative and innovative development solution ideas to a problem, a system that includes knowledge technology for databases.</string>
     <string name="page5">TRIZ can be used in creating new products to generate product innovation ideas or ideas to make the innovation process more effective and efficient such as reducing operational costs or expenses.</string>
     <string name="reference">Video References</string>
+    <string name="video">Source :</string>
 
     //39 System Parameter
     <string name="parameterTitle">39 System Parameter</string>
@@ -83,8 +89,38 @@
     <string name="howToUse">How to Use</string>
 
     //halaman Case
+    <string name="titleCase1">Study Case 1</string>
+    <string name="titleCase2">Study Case 2</string>
     <string name="case1">If employee productivity doubled, then company will be able to meet customer demand but employee health worsen</string>
     <string name="case2">If manager is aggresive, then responsibility and number of project assigned increases but subordinates receive fewer recognitions and acknowledgments (due to limited manager bandwith)</string>
+    <string name="problem">Problem</string>
+    <string name="solve">an Example of Completition</string>
+    <string name="improve1">Improving Parameter :</string>
+    <string name="improve2">If employee productivity doubled</string>
+    <string name="improve3">(27) Reliability/Robustness</string>
+    <string name="improve4">If manager is aggresive, then responsibility and number of project assigned increases</string>
+    <string name="improve5">(4) Coverage/span of supervisor responsibility</string>
+    <string name="worsening1">Worsening Parameter :</string>
+    <string name="worsening2">employee health worsen</string>
+    <string name="worsening3">(11) Stress/Pressure</string>
+    <string name="worsening4">subordinates receive fewer recognitions and acknowledgments (due to limited manager bandwith)</string>
+    <string name="worsening5">(17) Type of interaction</string>
+    <string name="solution1">Available Solution</string>
+    <string name="solution2">The TRIZ Contradiction Matrix propose the following Inventive Principles based on the Paramaters (27/11) :</string>
+    <string name="solution3">The TRIZ Contradiction Matrix propose the following Inventive Principles based on the Paramaters (4/17) :</string>
+    <string name="principles1">(10) Preliminary Action</string>
+    <string name="principles2">(24) Intermediary</string>
+    <string name="principles3">(35) Parameter Changes</string>
+    <string name="principles4">(19) Periodic Action</string>
+    <string name="principles5">(3)  Local Quality</string>
+    <string name="principles7">(38) Strong Oxidants</string>
+    <string name="principles8">(18) Mechanical Vibration/Oscillation</string>
+    <string name="potential">Potential Implementation :</string>
+    <string name="potential1">(10) Preliminary action : Provide challenges for employees when they reach certain stretched output milestones. Celebrate when milestones are achieved e.g. Ice cream party, free lunch, tokens, or special bonus.</string>
+    <string name="potential2">(19) Periodic action : Provide regular appreciation for work done by employees to ensure that management focus is always present.</string>
+    <string name="potential3">(3)  Local Quality : Introduce new teaching and learning methods e.g. problem-based learing, cooperative learning, and project based-teams.</string>
+    <string name="potential4">(35) Parameter Changes : Build employee commitment through growth opportunities in terms of skills training, job assignment, cross-functional teamwork, and educational experiences.</string>
+    <string name="example">Solution Example</string>
 
 
 
@@ -112,7 +148,7 @@
     <string name="ptriz">39 System Parameters</string>
     <string name="pstriz">40 Inventive Principles</string>
     <string name="contradictionM">Contradiction Matrix</string>
-    <string name="casestudy">Case Study</string>
+    <string name="casestudy">Study Case</string>
 
     //halaman triz learning indo
     <string name="judultlearning1ind">TRIZ</string>
@@ -148,42 +184,42 @@
     //halaman 39 parameter
     <string name="title39parameters"> 39 System Parameters</string>
     <string name="textparameters">39 Parameters</string>
-    <string name="p1text">Weight of moving object</string>
-    <string name="p2text">Weight of stationary object</string>
-    <string name="p3text">Length of moving object</string>
-    <string name="p4text">Length of stationary object</string>
-    <string name="p5text">Area of moving object</string>
-    <string name="p6text">Area of stationary object</string>
-    <string name="p7text">Volume of moving object</string>
-    <string name="p8text">Volume of stationary object</string>
-    <string name="p9text">Speed</string>
-    <string name="p10text">Force</string>
-    <string name="p11text">Stress or pressure</string>
-    <string name="p12text">Shape</string>
-    <string name="p13text">Stability of the object ’s composition</string>
-    <string name="p14text">Strength</string>
-    <string name="p15text">Duration of action by a moving object</string>
-    <string name="p16text">Duration of action by a stationary object</string>
-    <string name="p17text">Temperature</string>
-    <string name="p18text">Illumination intensity</string>
-    <string name="p19text">Use of energy by moving object</string>
-    <string name="p20text">Use of energy by stationary object</string>
-    <string name="p21text">Power</string>
-    <string name="p22text">Loss of Energy</string>
-    <string name="p23text">Loss of substance</string>
+    <string name="p1text">Degree of responsibility of employee</string>
+    <string name="p2text">Degree of responsibility of supervisor</string>
+    <string name="p3text">Coverage/span of employee responsibility</string>
+    <string name="p4text">Coverage/span of supervisor responsibility</string>
+    <string name="p5text">Number of contacts/interfaces of employee</string>
+    <string name="p6text">Number of contacts/interfaces of supervisor</string>
+    <string name="p7text">Bandwidth of employee</string>
+    <string name="p8text">Bandwidth of supervisor</string>
+    <string name="p9text">Speed or response time</string>
+    <string name="p10text">Force or extent of response/action</string>
+    <string name="p11text">Stress/Pressure</string>
+    <string name="p12text">Organizational hierarchy/level</string>
+    <string name="p13text">Stability of organization</string>
+    <string name="p14text">Strength or ability to handle stress/pressure</string>
+    <string name="p15text">Time is taken to complete the tasks by an employee</string>
+    <string name="p16text">Time is taken to complete the tasks by an supervisor</string>
+    <string name="p17text">Type of interaction</string>
+    <string name="p18text">Visibility</string>
+    <string name="p19text">Amount of effort put in by the employee</string>
+    <string name="p20text">Amount of effort put in by the supervisor</string>
+    <string name="p21text">Results or amount of output produced</string>
+    <string name="p22text">Loss/waste of energy</string>
+    <string name="p23text">Loss of team members</string>
     <string name="p24text">Loss of Information</string>
     <string name="p25text">Loss of Time</string>
-    <string name="p26text">Quantity of substance/the matter</string>
-    <string name="p27text">Reliability</string>
-    <string name="p28text">Measurement accuracy</string>
-    <string name="p29text">Manufacturing precision</string>
-    <string name="p30text">External harm affects the object</string>
-    <string name="p31text">Object - generated harmful factors</string>
+    <string name="p26text">Number of team members</string>
+    <string name="p27text">Reliability/Robustness</string>
+    <string name="p28text">Actual compared to plan</string>
+    <string name="p29text">Precision/Consistency</string>
+    <string name="p30text">Object-affected harmful factors</string>
+    <string name="p31text">Object-generated harmful factors</string>
     <string name="p32text">Ease of manufacture</string>
     <string name="p33text">Ease of operation</string>
     <string name="p34text">Ease of repair</string>
-    <string name="p35text">Adaptability or versatility</string>
-    <string name="p36text">Device complexity</string>
+    <string name="p35text">Adaptability</string>
+    <string name="p36text">System Complexity</string>
     <string name="p37text">Difficulty of detecting and measuring</string>
     <string name="p38text">Extent of automation</string>
     <string name="p39text">Productivity</string>

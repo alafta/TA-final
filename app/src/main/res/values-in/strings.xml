@@ -5,20 +5,25 @@
     <string name="onboardingButton2">Mulai</string>
     <string name="onboardingTitle1">Tentang Aplikasi</string>
     <string name="onboardingDesc1">aplikasi ini merupakan sebuah aplikasi problem solving yang mengimplementasikan metode pemecahan masalah TRIZ yang diperkenalkan oleh Genrikh Saulovich Altshuller yang dipalikasikan dalam bentuk mobile</string>
-    <string name="onboardingTitle2">Fitur Utama</string>
-    <string name="onboardingDesc2">Fitur utama dari aplikasi ini adalah penggunaan kontradiksi matriks guna menemukan rekomendasi solusi dengan menggunakan metode TRIZ dari masalah yang memiliki kontradiksi. Hal tersebut didapatkan berdasarkan hasil dari parameter yang ingin ditingkatkan dan parameter yang menghambat</string>
-    <string name="onboardingTitle3">Untuk Pengguna Baru</string>
-    <string name="onboardingDesc3">Selain penggunaan kontradiksi matriks, aplikasi ini juga menawarkan fitur pembelajaran bagi pengguna yang belum memahami maupun mengetahui tentang apa itu TRIZ dan bagaiman cara mengimplementasikannya</string>
+    <string name="onboardingTitle2">Tujuan Aplikasi</string>
+    <string name="onboardingDesc2">Aplikasi ini merupakan media belajar bagi penggunanya untuk mempelajari dan memahami metode triz sebagai salah satu metode problem solving. Tujuan utama aplikasi ini adalah untuk mempermudah penggunanya dalam mempelajari dan memahami metode TRIZ. Selain itu pengguna juga dapat menggunakan aplikasi ini untuk menerapkan metode TRIZ dalam kehidupan sehari-hari.</string>
+    <string name="onboardingTitle3">Fitur Utama</string>
+    <string name="onboardingDesc3">Dalam aplikasi ini terdapat fitur yang mengimplementasikan matriks kontradiksi TRIZ dalam memecahakan permasalahaan yang kontradiktif. Terdapat juga sejumlah materi tentang dasar metode TRIZ yang dapat membantu pengguna untuk mempelajari dan memahami metode TRIZ. </string>
 
     //halaman home
     <string name="home2Title">Halaman Utama</string>
     <string name="matrix2Set">Tentukan Kontradiksi</string>
-    <string name="matrix2Improving">Paramater peningkat</string>
-    <string name="matrix2Worsening">Parameter penghambat</string>
+    <string name="matrix2Improving">Pilih Paramater peningkat</string>
+    <string name="matrix2Worsening">Pilih Parameter penghambat</string>
     <string name="principles">Solusi</string>
     <string name="subPrinciples">Matriks TRIZ mengusulkan Solusi berikut untuk menyelesaikan kontradiksi tersebut:</string>
     <string name="buttonTriz">Mengenal Tentang TRIZ</string>
     <string name="chooseP">Pilih Parameter</string>
+    //information
+    <string name="infodesc">Dekripsi :</string>
+    <string name="info1">1. Pilih parameter peningkat sesuai degan apa yang anda inginkan.</string>
+    <string name="info2">2. Pilih paramater penghambat yag menjadi kontradiksi dari parameter peningkat anda.</string>
+    <string name="info3">3. Menampilkan solusi dari parameter-paramater yang telah anda tentukan.</string>
 
 
     //halaman understanding
@@ -46,6 +51,7 @@
     <string name="page4">Oleh karena itu, Altshuller memperkenalkan metode TRIZ dengan 39 sistem parameter dan 40 Prinsip Solusi yang telah dikompresi dari 40.000 paten yang ada.TRIZ adalah sebuah filosofi metode ilmu pengetahuan dan teknologi dengan cara berpikir yang sistematis dan terstruktur untuk menemukan ide solusi pengembangan yang kreatif dan inovatif untuk suatu masalah, sebuah sistem yang mencakup teknologi pengetahuan untuk database.</string>
     <string name="page5">TRIZ dapat digunakan dalam menciptakan produk baru untuk menghasilkan ide atau gagasan inovasi produk sehingga proses inovasi menjadi lebih efektif dan efisien seperti mengurangi biaya atau pengeluaran operasional.</string>
     <string name="reference">Video Referensi</string>
+    <string name="video">Sumber :</string>
 
     //39 System Parameter
     <string name="parameterTitle">39 Parameter Sistem</string>
@@ -74,9 +80,39 @@
     //halaman Case
     <string name="case1">Jika produktivitas karyawan meningkat dua kali lipat, maka perusahaan akan dapat memenuhi permintaan pelanggan tetapi kesehatan karyawan memburuk</string>
     <string name="case2">Jika manajer agresif, maka tanggung jawab dan jumlah proyek yang ditugaskan meningkat tetapi bawahan menerima lebih sedikit pengakuan dan ucapan terimakasih (karena bandwidth manajer terbatas)</string>
+    <string name="problem">Permasalahan</string>
+    <string name="solve">Contoh Penyelesaian</string>
+    <string name="improve1">Parameter Peningkat :</string>
+    <string name="improve2">Jika produktivitas karyawan meningkat dua kali lipat</string>
+    <string name="improve3">(27) Keandalan/Kekokohan</string>
+    <string name="improve4">Jika manajer agresif, maka tanggung jawab dan jumlah proyek yang ditugaskan meningkat</string>
+    <string name="improve5">(4) Cakupan/rentang tanggung jawab manajer</string>
+    <string name="worsening1">Parameter Penghambat :</string>
+    <string name="worsening2">kesehatan karyawan memburuk</string>
+    <string name="worsening3">(11) Stres/Tekanan</string>
+    <string name="worsening4">bawahan menerima lebih sedikit pengakuan dan ucapan terimakasih (karena bandwidth manajer terbatas)</string>
+    <string name="worsening5">(17) Jenis interaksi</string>
+    <string name="solution1">Solusi Tersedia</string>
+    <string name="solution2">Matriks Kontradiksi TRIZ mengusulkan prinsip-prinsip Inventif berikut berdasarkan Paramater (27/11) :</string>
+    <string name="solution3">Matriks Kontradiksi TRIZ mengusulkan prinsip-prinsip Inventif berikut berdasarkan Paramater (4/17) :</string>
+    <string name="principles1">(10) Tindakan Awal</string>
+    <string name="principles2">(24) Perantara</string>
+    <string name="principles3">(35) Perubahan Parameter</string>
+    <string name="principles4">(19) Tindakan Berkala</string>
+    <string name="principles5">(3)  Kualitas Lokal</string>
+    <string name="principles7">(38) Penguraian yang Kuat</string>
+    <string name="principles8">(18) Getaran/Osilasi Mekanis</string>
+    <string name="potential">Implementasi Potensial :</string>
+    <string name="potential1">(10) Tindakan Awal : Memberikan tantangan bagi karyawan ketika mereka mencapai raihan tertentu. Rayakan ketika raihan tersebut tercapai mis. Pesta es krim, makan siang gratis, token, atau bonus khusus.</string>
+    <string name="potential2">(19) Tindakan Berkala : Memberikan penghargaan secara teratur atas pekerjaan yang dilakukan oleh karyawan untuk memastikan bahwa fokus manajemen selalu ada.</string>
+    <string name="potential3">(3)  Kualitas Lokal: Memperkenalkan metode pengajaran dan pembelajaran baru, misalnya: pembelajaran berbasis masalah, pembelajaran kooperatif, dan tim berbasis proyek.</string>
+    <string name="potential4">(35) Perubahan Parameter : Membangun komitmen karyawan melalui peluang pertumbuhan dalam hal pelatihan keterampilan, penugasan kerja, kerja tim lintas fungsi, dan pengalaman pendidikan.</string>
+    <string name="example">Contoh Penyelesaian</string>
 
 
     //Business and Management
+    <string name="titleCase1">Studi Kasus 1</string>
+    <string name="titleCase2">Studi Kasus 2</string>
     <string name="bamTitle">Bagaimana Cara Kerja pada Bisnis dan Manajemen</string>
     <string name="bamDesc1">TRIZ untuk Bisnis dan Manajemen</string>
     <string name="bamDesc2">Apakah anda siap menghadapi tantangan baru untuk mengembangkan bisnis anda? Apakah anda mampu mengembangkan ide-ide terobosan baru yang dapat memberi anda keunggulan terhadap persaingan? TRIZ dapat digunakan untuk membantu dalam hal pengembangan ide inovasi terhadap strategi bisnis secara efektif dan efisien.</string>
@@ -148,45 +184,45 @@
     //halaman 39 parameter
     <string name="title39parameters"> 39 System Parameters</string>
     <string name="textparameters">39 Parameters</string>
-    <string name="p1text">Weight of moving object</string>
-    <string name="p2text">Weight of stationary object</string>
-    <string name="p3text">Length of moving object</string>
-    <string name="p4text">Length of stationary object</string>
-    <string name="p5text">Area of moving object</string>
-    <string name="p6text">Area of stationary object</string>
-    <string name="p7text">Volume of moving object</string>
-    <string name="p8text">Volume of stationary object</string>
-    <string name="p9text">Speed</string>
-    <string name="p10text">Force</string>
-    <string name="p11text">Stress or pressure</string>
-    <string name="p12text">Shape</string>
-    <string name="p13text">Stability of the object ’s composition</string>
-    <string name="p14text">Strength</string>
-    <string name="p15text">Duration of action by a moving object</string>
-    <string name="p16text">Duration of action by a stationary object</string>
-    <string name="p17text">Temperature</string>
-    <string name="p18text">Illumination intensity</string>
-    <string name="p19text">Use of energy by moving object</string>
-    <string name="p20text">Use of energy by stationary object</string>
-    <string name="p21text">Power</string>
-    <string name="p22text">Loss of Energy</string>
-    <string name="p23text">Loss of substance</string>
-    <string name="p24text">Loss of Information</string>
-    <string name="p25text">Loss of Time</string>
-    <string name="p26text">Quantity of substance/the matter</string>
-    <string name="p27text">Reliability</string>
-    <string name="p28text">Measurement accuracy</string>
-    <string name="p29text">Manufacturing precision</string>
-    <string name="p30text">External harm affects the object</string>
-    <string name="p31text">Object - generated harmful factors</string>
-    <string name="p32text">Ease of manufacture</string>
-    <string name="p33text">Ease of operation</string>
-    <string name="p34text">Ease of repair</string>
-    <string name="p35text">Adaptability or versatility</string>
-    <string name="p36text">Device complexity</string>
-    <string name="p37text">Difficulty of detecting and measuring</string>
-    <string name="p38text">Extent of automation</string>
-    <string name="p39text">Productivity</string>
+    <string name="p1text">Tingkat tanggung jawab karyawan</string>
+    <string name="p2text">Tingkat tanggung jawab supervisor</string>
+    <string name="p3text">Cakupan/rentang tanggung jawab karyawan</string>
+    <string name="p4text">Cakupan/rentang tanggung jawab supervisor</string>
+    <string name="p5text">Jumlah kontak/antarmuka karyawan</string>
+    <string name="p6text">Jumlah kontak/antarmuka supervisor</string>
+    <string name="p7text">Volume tampung karyawan</string>
+    <string name="p8text">Volume tampung supervisor</string>
+    <string name="p9text">Kecepatan atau waktu respons</string>
+    <string name="p10text">Kekuatan atau tingkat respons/tindakan</string>
+    <string name="p11text">Stres/Tekanan</string>
+    <string name="p12text">Hirarki/tingkat organisasi</string>
+    <string name="p13text">Stabilitas organisasi</string>
+    <string name="p14text">Kekuatan atau kemampuan untuk menangani stres/tekanan</string>
+    <string name="p15text">Waktu yang dibutuhkan untuk menyelesaikan tugas oleh karyawan</string>
+    <string name="p16text">Waktu yang dibutuhkan untuk menyelesaikan tugas oleh supervisor</string>
+    <string name="p17text">Jenis interaksi</string>
+    <string name="p18text">Visibilitas</string>
+    <string name="p19text">Jumlah usaha yang dilakukan oleh karyawan</string>
+    <string name="p20text">Jumlah usaha yang dilakukan oleh supervisor</string>
+    <string name="p21text">Hasil atau jumlah output yang dihasilkan</string>
+    <string name="p22text">Kehilangan/pemborosan energi</string>
+    <string name="p23text">Kehilangan anggota tim</string>
+    <string name="p24text">Kehilangan informasi</string>
+    <string name="p25text">Kehilangan waktu</string>
+    <string name="p26text">Jumlah anggota tim</string>
+    <string name="p27text">Keandalan/Kekokohan</string>
+    <string name="p28text">Hasil aktual dibandingkan dengan rencana</string>
+    <string name="p29text">Presisi/Konsistensi</string>
+    <string name="p30text">Faktor berbahaya yang terpengaruh objek</string>
+    <string name="p31text">Faktor berbahaya yang dihasilkan objek</string>
+    <string name="p32text">Kemudahan pembuatan</string>
+    <string name="p33text">Kemudahan pengoperasian</string>
+    <string name="p34text">Kemudahan perbaikan</string>
+    <string name="p35text">Kemampuan beradaptasi</string>
+    <string name="p36text">Kompleksitas Sistem</string>
+    <string name="p37text">Kesulitan mendeteksi dan mengukur</string>
+    <string name="p38text">Tingkat otomatisasi</string>
+    <string name="p39text">Produktifitas</string>
 
     //halaman 40 inventive principles
     <string name="title40inventiveprinciples">40 Inventive Principles</string>

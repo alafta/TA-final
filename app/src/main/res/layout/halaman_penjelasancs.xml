@@ -169,7 +169,7 @@
                 android:layout_height="20dp"
                 android:layout_below="@id/buletcs1"
                 android:layout_alignLeft="@id/buletcs1"
-                android:background="@drawable/arrow_penjelasan"/>
+                android:background="@drawable/arrow_penjelasan" />
 
             <TextView
                 android:id="@+id/isiworsening"
@@ -218,7 +218,7 @@
                 android:layout_height="20dp"
                 android:layout_below="@id/buletcs2"
                 android:layout_alignLeft="@id/buletcs2"
-                android:background="@drawable/arrow_penjelasan"/>
+                android:background="@drawable/arrow_penjelasan" />
 
             <TextView
                 android:id="@+id/isiimprovement"

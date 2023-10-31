@@ -1,7 +1,10 @@
 package com.example.projectfrontend.classParameterNew;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,6 +21,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.projectfrontend.BaseActivity;
 import com.example.projectfrontend.HomeActivityNew.Home2Activity;
 import com.example.projectfrontend.R;
 import com.example.projectfrontend.TrizActivity;
@@ -29,8 +33,9 @@ import com.example.projectfrontend.database.DatabaseHelper;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
-public class ParameterActivity extends AppCompatActivity implements RecyclerViewInterfaceP2 {
+public class ParameterActivity extends BaseActivity implements BaseActivity.OnLanguageChangedListener, RecyclerViewInterfaceP2 {
 
     RecyclerView recyclerView;
     adapterRecycleViewp2 adapterRecycleViewp2;
@@ -95,53 +100,79 @@ public class ParameterActivity extends AppCompatActivity implements RecyclerView
                     case R.id.nav_home:
                         Intent home = new Intent(ParameterActivity.this, Home2Activity.class);
                         startActivity(home);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_undr:
                         Intent under = new Intent(ParameterActivity.this, ParameterActivity.class);
                         startActivity(under);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_what:
                         Intent intent = new Intent(ParameterActivity.this, TrizActivity.class);
                         startActivity(intent);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_bussi:
                         Intent bussi = new Intent(ParameterActivity.this, BamActivity.class);
                         startActivity(bussi);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_param:
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_princ:
                         Intent prince = new Intent(ParameterActivity.this, PrinciplesActivity.class);
                         startActivity(prince);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
                     case R.id.nav_cont:
                         Intent matrix = new Intent(ParameterActivity.this, ContramatrixActivity.class);
                         startActivity(matrix);
-                        drawerLayout.closeDrawer(R.id.nav_drawer);
+                        drawerLayout.closeDrawer(Gravity.END);
                         break;
-//                    case R.id.nav_languageEn:
-//                        LocaleManager.setLocale(context, "en"); // English
-//                        recreate(); // Refresh the activity
-//                        return true;
-//                    case R.id.nav_languageIn:
-//                        LocaleManager.setLocale(context, "in"); // English
-//                        recreate(); // Refresh the activity
-//                        return true;
+                    case R.id.nav_languageEn:
+                        setLocale("en");
+                        recreate(); // Refresh the activity
+                        drawerLayout.closeDrawer(Gravity.END);
+                        break;
+                    case R.id.nav_languageIn:
+                        setLocale("in");
+                        recreate();
+                        drawerLayout.closeDrawer(Gravity.END);
+                        break;
                 }
                 return true;
             }
         });
     }
 
+    public void setLocale(String languageCode) {
+        // Store the selected language in a shared preference
+        SharedPreferences preferences = getSharedPreferences("MyAppPreferences", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("language", languageCode);
+        editor.apply();
+
+        // Notify child activities that the language has changed
+        if (languageChangedListener != null) {
+            languageChangedListener.onLanguageChanged();
+        }
+        // Send a broadcast to notify all activities about the language change
+        Intent intent = new Intent("LanguageChanged");
+        sendBroadcast(intent);
+
+        // Update the application's locale
+        Resources resources = getResources();
+        Configuration configuration = resources.getConfiguration();
+        Locale locale = new Locale(languageCode);
+        configuration.setLocale(locale);
+        resources.updateConfiguration(configuration, resources.getDisplayMetrics());
+    }
+
+
     void displayData() {
         Cursor cursor = myDB.readDataTableP();
-        String currentLang = getCurrentLocale();
+        String currentLang = languageManager.getCurrentLocale();
 
         if (currentLang.equals("en")) {
             if (cursor.getCount() == 0) {
@@ -160,17 +191,12 @@ public class ParameterActivity extends AppCompatActivity implements RecyclerView
             } else {
                 while (cursor.moveToNext()) {
                     id_p.add(cursor.getString(0));
-                    nama_p.add(cursor.getString(2)); // Changed index to 2
-                    meaningP.add(cursor.getString(4)); // Changed index to 4
-                    saeP.add(cursor.getString(6)); // Changed index to 6
+                    nama_p.add(cursor.getString(2)); 
+                    meaningP.add(cursor.getString(4));
+                    saeP.add(cursor.getString(6));
                 }
             }
         }
-    }
-
-    private String getCurrentLocale() {
-        SharedPreferences prefs = getSharedPreferences("Settings", MODE_PRIVATE);
-        return prefs.getString("My_Lang", "en"); // Default to "en" if not set
     }
 
     private void filter(String text) {
@@ -213,4 +239,8 @@ public class ParameterActivity extends AppCompatActivity implements RecyclerView
     }
 
 
+    @Override
+    public void onLanguageChanged() {
+        recreate();
+    }
 }

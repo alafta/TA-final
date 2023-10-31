@@ -43,7 +43,7 @@
                     android:text="@string/trizTitle"
                     android:fontFamily="@font/tajawalextrabold"
                     android:textStyle="bold"
-                    android:textSize="32sp"
+                    android:textSize="30sp"
                     android:textColor="@color/secondary"/>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
